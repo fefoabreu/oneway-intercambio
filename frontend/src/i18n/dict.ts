@@ -52,6 +52,14 @@ export const DICT: Record<string, { pt: string; en: string }> = {
   'dash.by_dest': { pt: 'Destino recomendado pela IA', en: 'AI-recommended destination' },
   'dash.propensity': { pt: 'Mix de propensão de visto', en: 'Visa propensity mix' },
   'dash.objective': { pt: 'Objetivo', en: 'Objective' },
+  'dash.abroad_title': { pt: 'Alunos no exterior', en: 'Students abroad' },
+  'dash.abroad_sub': { pt: 'Ciclo de vida pós-embarque monitorado pela IA', en: 'AI-monitored post-departure lifecycle' },
+  'dash.abroad_students': { pt: 'no exterior', en: 'abroad' },
+  'dash.abroad_alerts': { pt: 'alertas de conformidade', en: 'compliance alerts' },
+  'dash.abroad_renewals': { pt: 'renovações ativas', en: 'active renewals' },
+  'dash.abroad_referrals': { pt: 'leads via indicação', en: 'referral leads' },
+  'dash.abroad_needs': { pt: 'Requer atenção', en: 'Needs attention' },
+  'dash.abroad_link': { pt: 'Ver jornada dos alunos', en: 'View student journey' },
 
   // Pipeline
   'pipe.title': { pt: 'Funil de Candidatos', en: 'Candidate Pipeline' },
