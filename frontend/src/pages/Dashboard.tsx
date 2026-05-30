@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import clsx from 'clsx';
-import { LayoutDashboard, Users, Gauge, CheckCircle, GraduationCap, ArrowRight, Target } from 'lucide-react';
-import { candidatesApi, configApi } from '../api/client';
+import { LayoutDashboard, Users, Gauge, CheckCircle, GraduationCap, ArrowRight, Target, Plane, AlertTriangle, RefreshCw, Sparkles } from 'lucide-react';
+import { candidatesApi, configApi, journeyApi } from '../api/client';
 import { useLang } from '../i18n/LangContext';
 import PageHero from '../components/layout/PageHero';
 import { HERO } from '../lib/images';
-import type { Candidate, ReadinessConfig, Destination, Propensity } from '../types';
+import type { Candidate, ReadinessConfig, Destination, Propensity, StudentJourney } from '../types';
 import { DESTINATION_META, PROPENSITY, STAGE_META } from '../lib/ui';
 
 function KpiCard({ icon: Icon, color, label, value, sub }: { icon: typeof Users; color: string; label: string; value: string; sub: string }) {
