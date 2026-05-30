@@ -10,6 +10,7 @@ const nav = [
   { key: 'nav.pipeline', to: '/pipeline', icon: GitBranch, code: '02' },
   { type: 'divider', key: 'nav.section.ai' },
   { key: 'nav.candidates', to: '/candidates', icon: IdCard, code: '03' },
+  { key: 'nav.intake', to: '/intake', icon: Sparkles, code: 'AI' },
   { type: 'divider', key: 'nav.section.ops' },
   { key: 'nav.visa', to: '/visa', icon: Plane, code: '04' },
   { key: 'nav.journey', to: '/journey', icon: Compass, code: '05' },
