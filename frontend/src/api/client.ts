@@ -1,9 +1,12 @@
 import axios from 'axios';
+import type { Candidate, IntakeInput } from '../types';
+import { analyzeLocal } from '../lib/analyze';
 
-const IS_STATIC = import.meta.env.VITE_STATIC_MODE === 'true';
 const BASE = import.meta.env.BASE_URL || '/';
 
-// Fetch a static JSON file (GitHub Pages mode)
+// All demo data lives as static JSON under /public/mock-data and is the single
+// source of truth in every environment (there is no backend serving it). Only
+// the optional live-AI analysis (below) talks to a backend.
 async function staticGet(path: string) {
   const url = `${BASE}mock-data${path.replace(/\/$/, '')}.json`;
   const res = await fetch(url);
@@ -12,42 +15,33 @@ async function staticGet(path: string) {
   return { data };
 }
 
-// No-op for write operations in static mode
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const noop = (..._args: any[]) => Promise.resolve({ data: {} as any });
-
 const api = axios.create({ baseURL: import.meta.env.VITE_API_URL || '/api' });
 
 export const candidatesApi = {
-  list: () => IS_STATIC ? staticGet('/candidates') : api.get('/candidates/'),
-  get: (id: string) => IS_STATIC
-    ? staticGet('/candidates').then(r => ({ data: r.data.find((c: any) => c.id === id) }))
-    : api.get(`/candidates/${id}`),
-  takeAction: noop,
-  regenerateAI: noop,
+  list: () => staticGet('/candidates'),
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  get: (id: string) => staticGet('/candidates').then(r => ({ data: r.data.find((c: any) => c.id === id) })),
 };
 
 export const configApi = {
-  get: () => IS_STATIC ? staticGet('/readiness-config') : api.get('/config/'),
+  get: () => staticGet('/readiness-config'),
 };
 
 export const visaApi = {
-  list: () => IS_STATIC ? staticGet('/visa-cases') : api.get('/visa/'),
+  list: () => staticGet('/visa-cases'),
 };
 
 export const journeyApi = {
-  list: () => IS_STATIC ? staticGet('/journey') : api.get('/journey/'),
-  students: () => IS_STATIC ? staticGet('/student-journeys') : api.get('/journey/students'),
+  list: () => staticGet('/journey'),
+  students: () => staticGet('/student-journeys'),
 };
 
-import type { Candidate, IntakeInput } from '../types';
-import { analyzeLocal } from '../lib/analyze';
-
-// Lead analysis: live Claude when a backend is reachable, deterministic rules
-// engine otherwise (so the static GitHub Pages demo works without an API key).
+// Lead analysis: live Claude when the FastAPI backend is reachable (local dev),
+// deterministic rules engine otherwise (the static GitHub Pages demo). We only
+// attempt the backend in dev so the published site doesn't make a doomed request.
 export const analyzeApi = {
   analyze: async (input: IntakeInput): Promise<{ candidate: Candidate; live: boolean }> => {
-    if (!IS_STATIC) {
+    if (import.meta.env.DEV) {
       try {
         const r = await api.post('/analyze', input, { timeout: 30000 });
         return { candidate: r.data as Candidate, live: true };

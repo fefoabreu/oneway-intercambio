@@ -140,5 +140,142 @@
       "testimonial_pt": "Dublin mudou minha vida. Indiquei três amigos e dois já fecharam!",
       "testimonial_en": "Dublin changed my life. I referred three friends and two have already signed up!"
     }
+  },
+  {
+    "candidate_id": "julia-almeida-costa",
+    "name": "Júlia Almeida Costa",
+    "photo": "https://randomuser.me/api/portraits/women/26.jpg",
+    "destination": "malta",
+    "city_abroad": "Valletta",
+    "course": "English + Hospitality",
+    "intake_pt": "Jan 2026",
+    "intake_en": "Jan 2026",
+    "current_stage": "settling",
+    "stages_done": ["pre_departure", "arrival"],
+    "compliance": {
+      "attendance_pct": 92,
+      "attendance_min": 80,
+      "work_hours_used": 16,
+      "work_hours_cap": 20,
+      "work_hours_unit_pt": "por semana",
+      "work_hours_unit_en": "per week",
+      "visa_expiry": "2027-01-10",
+      "renewal_window": "2026-10-10"
+    },
+    "alerts": [
+      { "severity": "ok", "pt": "Instalação em dia; frequência e trabalho dentro das regras.", "en": "Setup on track; attendance and work within the rules." }
+    ],
+    "renewal": {
+      "status": "not_due",
+      "label_pt": "Sem ação no momento", "label_en": "No action needed",
+      "next_pt": "Janela de renovação abre em out/2026.", "next_en": "Renewal window opens Oct 2026."
+    },
+    "pathway": {
+      "route_pt": "Curso de hotelaria → experiência em Malta → mobilidade UE",
+      "route_en": "Hospitality course → Malta experience → EU mobility",
+      "eligibility_pct": 62,
+      "note_pt": "Malta é porta de entrada na UE; experiência abre portas no bloco.",
+      "note_en": "Malta is an EU gateway; experience opens doors across the bloc."
+    },
+    "alumni": {
+      "referrals": 1,
+      "converted_leads": 0,
+      "referred": [
+        { "name": "Amanda O. (Campo Grande)", "became_lead": false }
+      ],
+      "testimonial_pt": "Valletta é um sonho. Já estou contando pra todo mundo!",
+      "testimonial_en": "Valletta is a dream. I'm already telling everyone!"
+    }
+  },
+  {
+    "candidate_id": "henrique-barbosa-pinto",
+    "name": "Henrique Barbosa Pinto",
+    "photo": "https://randomuser.me/api/portraits/men/41.jpg",
+    "destination": "australia",
+    "city_abroad": "Gold Coast, QLD",
+    "course": "Diploma of Business",
+    "intake_pt": "Fev 2026",
+    "intake_en": "Feb 2026",
+    "current_stage": "study_work",
+    "stages_done": ["pre_departure", "arrival", "settling"],
+    "compliance": {
+      "attendance_pct": 96,
+      "attendance_min": 80,
+      "work_hours_used": 40,
+      "work_hours_cap": 48,
+      "work_hours_unit_pt": "por quinzena",
+      "work_hours_unit_en": "per fortnight",
+      "visa_expiry": "2028-02-28",
+      "renewal_window": "2027-11-28"
+    },
+    "alerts": [
+      { "severity": "ok", "pt": "Excelente frequência; conformidade total com o visto.", "en": "Excellent attendance; fully visa-compliant." }
+    ],
+    "renewal": {
+      "status": "not_due",
+      "label_pt": "Sem ação no momento", "label_en": "No action needed",
+      "next_pt": "Avaliar pathway 485 após a graduação.", "next_en": "Assess 485 pathway after graduation."
+    },
+    "pathway": {
+      "route_pt": "Graduado → Temporary Graduate (485) → Skilled PR",
+      "route_en": "Graduate → Temporary Graduate (485) → Skilled PR",
+      "eligibility_pct": 74,
+      "note_pt": "Negócios + inglês forte sustentam um bom caso de PR.",
+      "note_en": "Business + strong English support a good PR case."
+    },
+    "alumni": {
+      "referrals": 2,
+      "converted_leads": 1,
+      "referred": [
+        { "name": "Felipe S. (Sorocaba)", "became_lead": true },
+        { "name": "Carolina R. (Uberlândia)", "became_lead": false }
+      ],
+      "testimonial_pt": "Gold Coast tem tudo: praia, estudo e trabalho. Recomendo de olhos fechados.",
+      "testimonial_en": "Gold Coast has it all: beach, study and work. I recommend it without hesitation."
+    }
+  },
+  {
+    "candidate_id": "patricia-lemos-andrade",
+    "name": "Patrícia Lemos Andrade",
+    "photo": "https://randomuser.me/api/portraits/women/52.jpg",
+    "destination": "ireland",
+    "city_abroad": "Cork",
+    "course": "English + Marketing",
+    "intake_pt": "Jan 2026",
+    "intake_en": "Jan 2026",
+    "current_stage": "study_work",
+    "stages_done": ["pre_departure", "arrival", "settling"],
+    "compliance": {
+      "attendance_pct": 84,
+      "attendance_min": 85,
+      "work_hours_used": 19,
+      "work_hours_cap": 20,
+      "work_hours_unit_pt": "por semana (período letivo)",
+      "work_hours_unit_en": "per week (term time)",
+      "visa_expiry": "2026-12-15",
+      "renewal_window": "2026-09-15"
+    },
+    "alerts": [
+      { "severity": "critical", "pt": "Frequência em 84% — ABAIXO do mínimo de 85% do ILEP. Risco direto à renovação do visto; contatar a aluna com urgência.", "en": "Attendance at 84% — BELOW the ILEP 85% minimum. Direct risk to visa renewal; contact the student urgently." }
+    ],
+    "renewal": {
+      "status": "not_due",
+      "label_pt": "Bloqueada por frequência", "label_en": "Blocked by attendance",
+      "next_pt": "Regularizar frequência antes de iniciar a renovação.", "next_en": "Fix attendance before starting the renewal."
+    },
+    "pathway": {
+      "route_pt": "2º ciclo → graduação na Irlanda → Stamp 1G",
+      "route_en": "2nd cycle → degree in Ireland → Stamp 1G",
+      "eligibility_pct": 58,
+      "note_pt": "Pathway viável, mas condicionado a regularizar a frequência.",
+      "note_en": "Pathway viable, but conditional on fixing attendance."
+    },
+    "alumni": {
+      "referrals": 0,
+      "converted_leads": 0,
+      "referred": [],
+      "testimonial_pt": "",
+      "testimonial_en": ""
+    }
   }
 ]

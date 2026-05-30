@@ -698,5 +698,110 @@
         { "label_pt": "Disponibilidade", "label_en": "Availability", "value": "2027" }
       ]
     }
+  },
+  {
+    "id": "julia-almeida-costa",
+    "name": "Júlia Almeida Costa",
+    "photo": "https://randomuser.me/api/portraits/women/26.jpg",
+    "origin_city": "Florianópolis, SC",
+    "goal_pt": "Estudar e trabalhar · hotelaria",
+    "goal_en": "Study + work · hospitality",
+    "current_english": "B2",
+    "highest_education_pt": "Curso técnico (Hotelaria)",
+    "highest_education_en": "Technical diploma (Hospitality)",
+    "stage": "enrolled",
+    "created_at": "2025-12-12",
+    "profile": {
+      "readiness_score": 78,
+      "score_breakdown": { "academic": 6.5, "english": 7.5, "financial": 7.5, "intent": 8.5, "documentation": 9.0, "immigration_risk": 9.0, "program_fit": 8.0 },
+      "recommended_destination": "malta",
+      "destination_fit": [
+        { "destination": "malta", "propensity": "high", "score": 84, "rationale_pt": "Turismo aquecido e entrada acessível; perfil técnico ideal para hotelaria em Valletta.", "rationale_en": "Booming tourism and accessible entry; technical profile ideal for hospitality in Valletta." },
+        { "destination": "ireland", "propensity": "high", "score": 78, "rationale_pt": "Setor de hospitalidade forte; B2 elegível ao ILEP.", "rationale_en": "Strong hospitality sector; B2 eligible for ILEP." },
+        { "destination": "australia", "propensity": "moderate", "score": 62, "rationale_pt": "Possível via VET; fundos no limite.", "rationale_en": "Possible via VET; borderline funds." },
+        { "destination": "spain", "propensity": "moderate", "score": 60, "rationale_pt": "Opção de idioma + turismo.", "rationale_en": "Language + tourism option." }
+      ],
+      "ai_status": "READY",
+      "ai_text_pt": "Matriculada, visto aprovado. Perfil técnico em hotelaria, B2 e documentação impecável — match sólido com Malta. Caso de referência para o destino.",
+      "ai_text_en": "Enrolled, visa approved. Technical hospitality profile, B2 and impeccable documentation — a solid Malta match. Reference case for the destination.",
+      "ai_conditions_pt": [],
+      "ai_conditions_en": [],
+      "key_facts": [
+        { "label_pt": "Orçamento", "label_en": "Budget", "value": "R$ 52.000" },
+        { "label_pt": "Status", "label_en": "Status", "value": "Visto aprovado" },
+        { "label_pt": "Curso", "label_en": "Course", "value": "English + Hospitality (Valletta)" },
+        { "label_pt": "Intake", "label_en": "Intake", "value": "Jan 2026" }
+      ]
+    }
+  },
+  {
+    "id": "henrique-barbosa-pinto",
+    "name": "Henrique Barbosa Pinto",
+    "photo": "https://randomuser.me/api/portraits/men/41.jpg",
+    "origin_city": "Ribeirão Preto, SP",
+    "goal_pt": "Estudar e trabalhar · negócios",
+    "goal_en": "Study + work · business",
+    "current_english": "C1",
+    "highest_education_pt": "Ensino superior completo (Administração)",
+    "highest_education_en": "Bachelor's degree (Business)",
+    "stage": "enrolled",
+    "created_at": "2025-11-25",
+    "profile": {
+      "readiness_score": 88,
+      "score_breakdown": { "academic": 8.5, "english": 9.0, "financial": 9.0, "intent": 9.0, "documentation": 9.0, "immigration_risk": 9.5, "program_fit": 8.5 },
+      "recommended_destination": "australia",
+      "destination_fit": [
+        { "destination": "australia", "propensity": "high", "score": 89, "rationale_pt": "Graduação, C1 e fundos sólidos atendem ao Genuine Student e ao requisito financeiro.", "rationale_en": "Degree, C1 and solid funds meet the Genuine Student test and financial requirement." },
+        { "destination": "ireland", "propensity": "high", "score": 84, "rationale_pt": "Mercado de negócios forte em Dublin.", "rationale_en": "Strong business market in Dublin." },
+        { "destination": "malta", "propensity": "high", "score": 83, "rationale_pt": "Setor financeiro/iGaming aquecido.", "rationale_en": "Hot finance/iGaming sector." },
+        { "destination": "spain", "propensity": "moderate", "score": 68, "rationale_pt": "Barcelona forte em negócios; exige espanhol.", "rationale_en": "Barcelona strong in business; requires Spanish." }
+      ],
+      "ai_status": "READY",
+      "ai_text_pt": "Matriculado na Gold Coast, visto aprovado. Perfil exemplar: graduação, C1 e capacidade financeira comprovada — Genuine Student sólido para a Austrália.",
+      "ai_text_en": "Enrolled on the Gold Coast, visa approved. Exemplary profile: degree, C1 and proven financial capacity — a solid Genuine Student case for Australia.",
+      "ai_conditions_pt": [],
+      "ai_conditions_en": [],
+      "key_facts": [
+        { "label_pt": "Orçamento", "label_en": "Budget", "value": "R$ 115.000" },
+        { "label_pt": "Status", "label_en": "Status", "value": "Visto aprovado" },
+        { "label_pt": "Curso", "label_en": "Course", "value": "Diploma of Business (Gold Coast)" },
+        { "label_pt": "Intake", "label_en": "Intake", "value": "Fev 2026" }
+      ]
+    }
+  },
+  {
+    "id": "patricia-lemos-andrade",
+    "name": "Patrícia Lemos Andrade",
+    "photo": "https://randomuser.me/api/portraits/women/52.jpg",
+    "origin_city": "Niterói, RJ",
+    "goal_pt": "Estudar e trabalhar · marketing",
+    "goal_en": "Study + work · marketing",
+    "current_english": "B2",
+    "highest_education_pt": "Ensino superior completo (Publicidade)",
+    "highest_education_en": "Bachelor's degree (Advertising)",
+    "stage": "enrolled",
+    "created_at": "2025-12-20",
+    "profile": {
+      "readiness_score": 81,
+      "score_breakdown": { "academic": 8.0, "english": 7.5, "financial": 7.5, "intent": 8.5, "documentation": 8.5, "immigration_risk": 9.0, "program_fit": 8.0 },
+      "recommended_destination": "ireland",
+      "destination_fit": [
+        { "destination": "ireland", "propensity": "high", "score": 83, "rationale_pt": "Graduação + B2 elegíveis ao ILEP; mercado criativo/tech forte em Cork e Dublin.", "rationale_en": "Degree + B2 eligible for ILEP; strong creative/tech market in Cork and Dublin." },
+        { "destination": "malta", "propensity": "high", "score": 79, "rationale_pt": "Setor digital crescente; entrada simples.", "rationale_en": "Growing digital sector; simple entry." },
+        { "destination": "australia", "propensity": "moderate", "score": 66, "rationale_pt": "Elegível; fundos no limite.", "rationale_en": "Eligible; borderline funds." },
+        { "destination": "spain", "propensity": "moderate", "score": 64, "rationale_pt": "Barcelona forte em criatividade; idioma a desenvolver.", "rationale_en": "Barcelona strong in creative; language to develop." }
+      ],
+      "ai_status": "READY",
+      "ai_text_pt": "Matriculada em Cork, visto aprovado. Graduação na área criativa, B2 e fundos adequados — match consistente com a Irlanda.",
+      "ai_text_en": "Enrolled in Cork, visa approved. Creative-field degree, B2 and adequate funds — consistent Ireland match.",
+      "ai_conditions_pt": [],
+      "ai_conditions_en": [],
+      "key_facts": [
+        { "label_pt": "Orçamento", "label_en": "Budget", "value": "R$ 58.000" },
+        { "label_pt": "Status", "label_en": "Status", "value": "Visto aprovado" },
+        { "label_pt": "Curso", "label_en": "Course", "value": "English + Marketing (Cork)" },
+        { "label_pt": "Intake", "label_en": "Intake", "value": "Jan 2026" }
+      ]
+    }
   }
 ]
