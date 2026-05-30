@@ -3,6 +3,8 @@ import clsx from 'clsx';
 import { GitBranch, Bot } from 'lucide-react';
 import { candidatesApi, configApi } from '../api/client';
 import { useLang } from '../i18n/LangContext';
+import PageHero from '../components/layout/PageHero';
+import { HERO } from '../lib/images';
 import type { Candidate, ReadinessConfig, StageDef } from '../types';
 import { DESTINATION_META, STAGE_META, scoreColorClass } from '../lib/ui';
 import { AIStatusBadge } from '../components/shared/Bits';
@@ -74,10 +76,12 @@ export default function Pipeline() {
 
   return (
     <div>
-      <div className="mb-6">
-        <h1 className="page-title flex items-center gap-2"><GitBranch className="w-7 h-7 text-ow-blue" /> {t('pipe.title')}</h1>
-        <p className="text-sm text-slate-500 mt-1 max-w-3xl">{t('pipe.subtitle')}</p>
-      </div>
+      <PageHero
+        image={HERO.pipeline}
+        titleKey="pipe.title"
+        subtitleKey="pipe.subtitle"
+        route="LEAD ✈┄┄┄┄┄ MATRÍCULA"
+      />
 
       <div className="flex gap-4 overflow-x-auto pb-4">
         {config.stages.map(stage => (

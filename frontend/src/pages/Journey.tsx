@@ -4,6 +4,8 @@ import {
 } from 'lucide-react';
 import { journeyApi } from '../api/client';
 import { useLang } from '../i18n/LangContext';
+import PageHero from '../components/layout/PageHero';
+import { HERO } from '../lib/images';
 import type { JourneyStage } from '../types';
 
 const ICONS: Record<string, typeof Compass> = {
@@ -23,10 +25,12 @@ export default function Journey() {
 
   return (
     <div>
-      <div className="mb-6">
-        <h1 className="page-title flex items-center gap-2"><Compass className="w-7 h-7 text-ow-blue" /> {t('journey.title')}</h1>
-        <p className="text-sm text-slate-500 mt-1 max-w-3xl">{t('journey.subtitle')}</p>
-      </div>
+      <PageHero
+        image={HERO.journey}
+        titleKey="journey.title"
+        subtitleKey="journey.subtitle"
+        route="EMBARQUE ✈┄┄┄ PATHWAY"
+      />
 
       {/* stage rail */}
       <div className="flex items-center gap-1 mb-6 overflow-x-auto pb-2">

@@ -3,6 +3,8 @@ import clsx from 'clsx';
 import { Plane, CheckCircle2, Clock, Circle, AlertCircle } from 'lucide-react';
 import { visaApi, configApi } from '../api/client';
 import { useLang } from '../i18n/LangContext';
+import PageHero from '../components/layout/PageHero';
+import { HERO } from '../lib/images';
 import type { VisaCase, ReadinessConfig, VisaStepStatus } from '../types';
 import { DESTINATION_META } from '../lib/ui';
 
@@ -82,10 +84,12 @@ export default function Visa() {
 
   return (
     <div>
-      <div className="mb-6">
-        <h1 className="page-title flex items-center gap-2"><Plane className="w-7 h-7 text-ow-blue" /> {t('visa.title')}</h1>
-        <p className="text-sm text-slate-500 mt-1 max-w-3xl">{t('visa.subtitle')}</p>
-      </div>
+      <PageHero
+        image={HERO.visa}
+        titleKey="visa.title"
+        subtitleKey="visa.subtitle"
+        route="DOCUMENTOS ✦ VISTO ✦ DECISÃO"
+      />
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-5">
         {cases.map(vc => <VisaCard key={vc.candidate_id} vc={vc} config={config} />)}
       </div>

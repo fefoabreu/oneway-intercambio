@@ -7,6 +7,8 @@ import { candidatesApi, configApi } from '../api/client';
 import { useLang } from '../i18n/LangContext';
 import type { Candidate, ReadinessConfig, ScoreDimension } from '../types';
 import { ReadinessDonut, ScoreBar, AIStatusBadge } from '../components/shared/Bits';
+import PageHero from '../components/layout/PageHero';
+import { HERO, DEST_PHOTO } from '../lib/images';
 import { DESTINATION_META, PROPENSITY, STAGE_META, scoreBgClass } from '../lib/ui';
 
 // ── Explainability modal (the "why" behind a dimension) ───────────────────────
@@ -67,6 +69,11 @@ function CandidateCard({ candidate, config }: { candidate: Candidate; config: Re
                 <span className={clsx('text-[11px] font-semibold px-2 py-0.5 rounded-full', stage.chip)}>
                   {stageLabel ? tl(stageLabel.label_pt, stageLabel.label_en) : candidate.stage}
                 </span>
+              </div>
+              {/* destination luggage sticker */}
+              <div className="absolute top-2.5 right-2.5 w-14 h-14 rounded-full ring-[3px] ring-white/85 overflow-hidden shadow-lg rotate-6">
+                <img src={DEST_PHOTO[p.recommended_destination]} alt={rec.label} className="w-full h-full object-cover" loading="lazy" />
+                <span className="absolute -bottom-0.5 -right-0.5 text-base drop-shadow">{rec.flag}</span>
               </div>
               <div className="absolute bottom-3 left-4 right-4">
                 <h3 className="text-white font-extrabold text-lg leading-tight drop-shadow">{candidate.name}</h3>
@@ -218,10 +225,14 @@ export default function Candidates() {
 
   return (
     <div>
-      <div className="mb-6">
-        <h1 className="page-title flex items-center gap-2"><IdCard className="w-7 h-7 text-ow-blue" /> {t('cand.title')}</h1>
-        <p className="text-sm text-slate-500 mt-1 max-w-3xl">{t('cand.subtitle')}</p>
-        <div className="mt-3 inline-flex items-center gap-2 rounded-lg bg-emerald-50 border border-emerald-200 px-3 py-1.5">
+      <PageHero
+        image={HERO.candidates}
+        titleKey="cand.title"
+        subtitleKey="cand.subtitle"
+        route="PRONTIDÃO ✦ MATCH DE DESTINO"
+      />
+      <div className="mb-6 -mt-2">
+        <div className="inline-flex items-center gap-2 rounded-full bg-emerald-50 border border-emerald-200 px-3 py-1.5">
           <ShieldCheck className="w-4 h-4 text-emerald-600" />
           <span className="text-xs text-emerald-800 font-medium">{t('cand.ethics')}</span>
         </div>

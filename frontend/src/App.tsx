@@ -14,7 +14,7 @@ export default function App() {
   return (
     <LangProvider>
       <BrowserRouter basename={basename}>
-        <div className="flex min-h-screen bg-slate-50">
+        <div className="flex min-h-screen bg-ow-sand">
           <Sidebar />
           <main className="flex-1 overflow-y-auto">
             <div className="max-w-7xl mx-auto px-8 py-8">

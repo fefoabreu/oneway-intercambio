@@ -4,6 +4,8 @@ import clsx from 'clsx';
 import { LayoutDashboard, Users, Gauge, CheckCircle, GraduationCap, ArrowRight, Target } from 'lucide-react';
 import { candidatesApi, configApi } from '../api/client';
 import { useLang } from '../i18n/LangContext';
+import PageHero from '../components/layout/PageHero';
+import { HERO } from '../lib/images';
 import type { Candidate, ReadinessConfig, Destination, Propensity } from '../types';
 import { DESTINATION_META, PROPENSITY, STAGE_META } from '../lib/ui';
 
@@ -49,10 +51,17 @@ export default function Dashboard() {
 
   return (
     <div>
-      <div className="mb-6">
-        <h1 className="page-title flex items-center gap-2"><LayoutDashboard className="w-7 h-7 text-ow-blue" /> {t('dash.title')}</h1>
-        <p className="text-sm text-slate-500 mt-1 max-w-3xl">{t('dash.subtitle')}</p>
-      </div>
+      <PageHero
+        image={HERO.dashboard}
+        titleKey="dash.title"
+        subtitleKey="dash.subtitle"
+        route="🇧🇷 BRASIL ✈ 🌏 O MUNDO"
+        chips={[
+          { label: tl('No funil', 'In pipeline'), value: `${total - enrolled}` },
+          { label: tl('Prontidão média', 'Avg readiness'), value: `${avg}` },
+          { label: tl('Matriculados', 'Enrolled'), value: `${enrolled}` },
+        ]}
+      />
 
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-6">
         <KpiCard icon={Users} color="border-l-ow-blue" label={t('dash.kpi.active')} value={`${total - enrolled}`} sub={t('dash.kpi.active_sub')} />
