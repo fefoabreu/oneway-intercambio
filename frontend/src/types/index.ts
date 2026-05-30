@@ -47,6 +47,24 @@ export interface Candidate {
   profile: CandidateProfile;
 }
 
+// ── Lead intake (new-candidate analysis) ─────────────────────────────────────
+export type Education = 'none' | 'high_school' | 'technical' | 'undergrad_incomplete' | 'undergrad' | 'postgrad';
+export type EnglishLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
+export type Goal = 'study' | 'study_work' | 'work_study';
+
+export interface IntakeInput {
+  name: string;
+  origin_city: string;
+  goal: Goal;
+  education: Education;
+  english: EnglishLevel;
+  funds_brl: number;
+  intent_text: string;
+  prior_refusal: boolean;
+  refusal_note?: string;
+  preferred_destination?: Destination | '';
+}
+
 // ── Config ──────────────────────────────────────────────────────────────────
 export interface ScoreDimension {
   key: string;

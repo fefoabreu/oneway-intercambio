@@ -39,4 +39,23 @@ export const journeyApi = {
   list: () => IS_STATIC ? staticGet('/journey') : api.get('/journey/'),
 };
 
+import type { Candidate, IntakeInput } from '../types';
+import { analyzeLocal } from '../lib/analyze';
+
+// Lead analysis: live Claude when a backend is reachable, deterministic rules
+// engine otherwise (so the static GitHub Pages demo works without an API key).
+export const analyzeApi = {
+  analyze: async (input: IntakeInput): Promise<{ candidate: Candidate; live: boolean }> => {
+    if (!IS_STATIC) {
+      try {
+        const r = await api.post('/analyze', input, { timeout: 30000 });
+        return { candidate: r.data as Candidate, live: true };
+      } catch {
+        // backend not running — fall back to the local engine
+      }
+    }
+    return { candidate: analyzeLocal(input), live: false };
+  },
+};
+
 export default api;

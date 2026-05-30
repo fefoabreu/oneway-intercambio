@@ -4,6 +4,7 @@ import Sidebar from './components/layout/Sidebar';
 import Dashboard from './pages/Dashboard';
 import Pipeline from './pages/Pipeline';
 import Candidates from './pages/Candidates';
+import Intake from './pages/Intake';
 import Visa from './pages/Visa';
 import Journey from './pages/Journey';
 
@@ -22,6 +23,7 @@ export default function App() {
                 <Route path="/" element={<Dashboard />} />
                 <Route path="/pipeline" element={<Pipeline />} />
                 <Route path="/candidates" element={<Candidates />} />
+                <Route path="/intake" element={<Intake />} />
                 <Route path="/visa" element={<Visa />} />
                 <Route path="/journey" element={<Journey />} />
               </Routes>

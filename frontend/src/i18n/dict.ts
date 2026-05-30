@@ -16,6 +16,7 @@ export const DICT: Record<string, { pt: string; en: string }> = {
   'nav.candidates': { pt: 'Prontidão & Match', en: 'Readiness & Match' },
   'nav.visa': { pt: 'Gestão de Vistos', en: 'Visa Management' },
   'nav.journey': { pt: 'Jornada do Aluno', en: 'Student Journey' },
+  'nav.intake': { pt: 'Novo Candidato · IA', en: 'New Candidate · AI' },
 
   // Generic
   'common.search': { pt: 'Buscar...', en: 'Search...' },
@@ -94,4 +95,39 @@ export const DICT: Record<string, { pt: string; en: string }> = {
   },
   'journey.actions': { pt: 'Atividades-chave', en: 'Key activities' },
   'journey.ai_touch': { pt: 'Apoio da IA', en: 'AI touchpoint' },
+
+  // Intake / live AI
+  'intake.title': { pt: 'Analisar Novo Candidato', en: 'Analyze a New Candidate' },
+  'intake.subtitle': {
+    pt: 'Preencha o perfil de um novo lead e a IA gera, na hora, a Pontuação de Prontidão, o match de destino e a recomendação — com critérios objetivos e relacionados ao visto.',
+    en: 'Fill in a new lead’s profile and the AI instantly generates the Readiness Score, destination match and recommendation — using objective, visa-relevant criteria only.',
+  },
+  'intake.form_title': { pt: 'Perfil do candidato', en: 'Candidate profile' },
+  'intake.f_name': { pt: 'Nome', en: 'Name' },
+  'intake.f_city': { pt: 'Cidade de origem', en: 'Origin city' },
+  'intake.f_goal': { pt: 'Objetivo', en: 'Goal' },
+  'intake.f_education': { pt: 'Maior formação', en: 'Highest education' },
+  'intake.f_english': { pt: 'Nível de inglês', en: 'English level' },
+  'intake.f_funds': { pt: 'Capacidade financeira (R$)', en: 'Financial capacity (R$)' },
+  'intake.f_intent': { pt: 'Plano de estudos / objetivo', en: 'Study plan / objective' },
+  'intake.f_intent_ph': { pt: 'Ex.: concluir curso de inglês e trabalhar na área de TI, visando pathway de residência...', en: 'E.g.: complete an English course and work in IT, aiming for a residency pathway...' },
+  'intake.f_refusal': { pt: 'Recusa de visto anterior?', en: 'Prior visa refusal?' },
+  'intake.f_refusal_note': { pt: 'Detalhe da recusa (país/ano)', en: 'Refusal detail (country/year)' },
+  'intake.f_preferred': { pt: 'Destino preferido (opcional)', en: 'Preferred destination (optional)' },
+  'intake.none': { pt: 'Sem preferência', en: 'No preference' },
+  'intake.yes': { pt: 'Sim', en: 'Yes' },
+  'intake.no': { pt: 'Não', en: 'No' },
+  'intake.analyze': { pt: 'Analisar com IA', en: 'Analyze with AI' },
+  'intake.analyzing': { pt: 'Analisando perfil...', en: 'Analyzing profile...' },
+  'intake.reset': { pt: 'Limpar', en: 'Reset' },
+  'intake.empty': { pt: 'Preencha o perfil e clique em “Analisar com IA” para gerar o cartão de prontidão.', en: 'Fill in the profile and click “Analyze with AI” to generate the readiness card.' },
+  'intake.result': { pt: 'Resultado da análise', en: 'Analysis result' },
+  'intake.mode_live': { pt: 'IA ao vivo · Claude', en: 'Live AI · Claude' },
+  'intake.mode_demo': { pt: 'IA simulada (demo)', en: 'Simulated AI (demo)' },
+  'intake.demo_note': {
+    pt: 'No site publicado, a análise roda um motor de regras local (sem chave de API). Rodando localmente com uma chave Claude, o mesmo botão chama a IA de verdade.',
+    en: 'On the published site the analysis runs a local rules engine (no API key). Run locally with a Claude key and the same button calls the real AI.',
+  },
+  'intake.add': { pt: 'Adicionar ao funil', en: 'Add to pipeline' },
+  'intake.added': { pt: 'Adicionado à sessão ✓', en: 'Added to session ✓' },
 };

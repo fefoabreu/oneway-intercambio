@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { LayoutDashboard, GitBranch, IdCard, Plane, Compass } from 'lucide-react';
+import { LayoutDashboard, GitBranch, IdCard, Plane, Compass, Sparkles } from 'lucide-react';
 import clsx from 'clsx';
 import { useLang } from '../../i18n/LangContext';
 import { LOGO_WHITE } from '../../lib/images';
