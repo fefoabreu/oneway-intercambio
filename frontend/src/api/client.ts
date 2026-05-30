@@ -37,6 +37,7 @@ export const visaApi = {
 
 export const journeyApi = {
   list: () => IS_STATIC ? staticGet('/journey') : api.get('/journey/'),
+  students: () => IS_STATIC ? staticGet('/student-journeys') : api.get('/journey/students'),
 };
 
 import type { Candidate, IntakeInput } from '../types';

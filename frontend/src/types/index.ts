@@ -140,3 +140,60 @@ export interface JourneyStage {
   ai_touch_pt: string;
   ai_touch_en: string;
 }
+
+// ── Live per-student journey tracking ─────────────────────────────────────────
+export type AlertSeverity = 'ok' | 'info' | 'warning' | 'critical';
+
+export interface StudentAlert {
+  severity: AlertSeverity;
+  pt: string;
+  en: string;
+}
+
+export interface StudentCompliance {
+  attendance_pct: number;
+  attendance_min: number;
+  work_hours_used: number;
+  work_hours_cap: number;
+  work_hours_unit_pt: string;
+  work_hours_unit_en: string;
+  visa_expiry: string;   // ISO date
+  renewal_window: string; // ISO date
+}
+
+export interface StudentReferral {
+  name: string;
+  became_lead: boolean;
+}
+
+export interface StudentJourney {
+  candidate_id: string;
+  name: string;
+  photo: string;
+  destination: Destination;
+  city_abroad: string;
+  course: string;
+  intake_pt: string;
+  intake_en: string;
+  current_stage: string;       // matches a JourneyStage.key
+  stages_done: string[];
+  compliance: StudentCompliance;
+  alerts: StudentAlert[];
+  renewal: {
+    status: 'not_due' | 'action_due' | 'complete';
+    label_pt: string; label_en: string;
+    next_pt: string; next_en: string;
+  };
+  pathway: {
+    route_pt: string; route_en: string;
+    eligibility_pct: number;
+    note_pt: string; note_en: string;
+  };
+  alumni: {
+    referrals: number;
+    converted_leads: number;
+    referred: StudentReferral[];
+    testimonial_pt: string;
+    testimonial_en: string;
+  };
+}

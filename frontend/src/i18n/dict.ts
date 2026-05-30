@@ -96,6 +96,32 @@ export const DICT: Record<string, { pt: string; en: string }> = {
   'journey.actions': { pt: 'Atividades-chave', en: 'Key activities' },
   'journey.ai_touch': { pt: 'Apoio da IA', en: 'AI touchpoint' },
 
+  // Journey — live students
+  'journey.live_title': { pt: 'Alunos no exterior — acompanhamento ao vivo', en: 'Students abroad — live tracking' },
+  'journey.live_sub': {
+    pt: 'Cada aluno matriculado é monitorado pela IA: progresso na jornada, conformidade do visto, renovação e pathway de residência.',
+    en: 'Each enrolled student is AI-monitored: journey progress, visa compliance, renewal, and residency pathway.',
+  },
+  'journey.framework_title': { pt: 'Modelo da jornada', en: 'Journey framework' },
+  'journey.kpi.students': { pt: 'Alunos no exterior', en: 'Students abroad' },
+  'journey.kpi.alerts': { pt: 'Alertas de conformidade', en: 'Compliance alerts' },
+  'journey.kpi.renewals': { pt: 'Renovações em andamento', en: 'Renewals in progress' },
+  'journey.kpi.referrals': { pt: 'Leads via indicação', en: 'Referral leads' },
+  'journey.compliance': { pt: 'Conformidade do visto', en: 'Visa compliance' },
+  'journey.attendance': { pt: 'Frequência', en: 'Attendance' },
+  'journey.work_hours': { pt: 'Horas de trabalho', en: 'Work hours' },
+  'journey.visa_expiry': { pt: 'Visto expira', en: 'Visa expires' },
+  'journey.min': { pt: 'mín', en: 'min' },
+  'journey.renewal': { pt: 'Renovação & extensão', en: 'Renewal & extension' },
+  'journey.pathway': { pt: 'Pathway de residência', en: 'Residency pathway' },
+  'journey.eligibility': { pt: 'Elegibilidade', en: 'Eligibility' },
+  'journey.alumni': { pt: 'Indicações (alumni)', en: 'Referrals (alumni)' },
+  'journey.referrals_made': { pt: 'indicações', en: 'referrals' },
+  'journey.became_lead': { pt: 'virou lead', en: 'became lead' },
+  'journey.stage_now': { pt: 'Etapa atual', en: 'Current stage' },
+  'journey.view_in_pipeline': { pt: 'Indicação no funil', en: 'Referral in pipeline' },
+  'journey.alerts_label': { pt: 'Alertas da IA', en: 'AI alerts' },
+
   // Intake / live AI
   'intake.title': { pt: 'Analisar Novo Candidato', en: 'Analyze a New Candidate' },
   'intake.subtitle': {

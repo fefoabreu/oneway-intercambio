@@ -1,0 +1,144 @@
+[
+  {
+    "candidate_id": "lucas-oliveira-martins",
+    "name": "Lucas Oliveira Martins",
+    "photo": "https://randomuser.me/api/portraits/men/32.jpg",
+    "destination": "australia",
+    "city_abroad": "Brisbane, QLD",
+    "course": "Master of IT",
+    "intake_pt": "Fev 2026",
+    "intake_en": "Feb 2026",
+    "current_stage": "study_work",
+    "stages_done": ["pre_departure", "arrival", "settling"],
+    "compliance": {
+      "attendance_pct": 94,
+      "attendance_min": 80,
+      "work_hours_used": 36,
+      "work_hours_cap": 48,
+      "work_hours_unit_pt": "por quinzena",
+      "work_hours_unit_en": "per fortnight",
+      "visa_expiry": "2028-03-15",
+      "renewal_window": "2027-12-15"
+    },
+    "alerts": [
+      { "severity": "ok", "pt": "Frequência e horas de trabalho dentro das regras do visto.", "en": "Attendance and work hours within visa rules." }
+    ],
+    "renewal": {
+      "status": "not_due",
+      "label_pt": "Sem ação no momento", "label_en": "No action needed",
+      "next_pt": "Janela de renovação abre em dez/2027.", "next_en": "Renewal window opens Dec 2027."
+    },
+    "pathway": {
+      "route_pt": "Graduado → Temporary Graduate (485) → Skilled PR",
+      "route_en": "Graduate → Temporary Graduate (485) → Skilled PR",
+      "eligibility_pct": 78,
+      "note_pt": "TI está na lista de habilidades em demanda; forte caso de PR após a graduação.",
+      "note_en": "IT is on the in-demand skills list; strong PR case after graduation."
+    },
+    "alumni": {
+      "referrals": 2,
+      "converted_leads": 1,
+      "referred": [
+        { "name": "Thiago N. (Porto Alegre)", "became_lead": true },
+        { "name": "Marcos P. (Curitiba)", "became_lead": false }
+      ],
+      "testimonial_pt": "A One Way cuidou de tudo, do visto ao TFN. Já indiquei dois amigos.",
+      "testimonial_en": "One Way handled everything, from the visa to the TFN. I've already referred two friends."
+    }
+  },
+  {
+    "candidate_id": "camila-rodrigues-nunes",
+    "name": "Camila Rodrigues Nunes",
+    "photo": "https://randomuser.me/api/portraits/women/90.jpg",
+    "destination": "australia",
+    "city_abroad": "Sydney, NSW",
+    "course": "Nursing Pathway",
+    "intake_pt": "Mar 2026",
+    "intake_en": "Mar 2026",
+    "current_stage": "study_work",
+    "stages_done": ["pre_departure", "arrival", "settling"],
+    "compliance": {
+      "attendance_pct": 88,
+      "attendance_min": 80,
+      "work_hours_used": 50,
+      "work_hours_cap": 48,
+      "work_hours_unit_pt": "por quinzena",
+      "work_hours_unit_en": "per fortnight",
+      "visa_expiry": "2028-04-20",
+      "renewal_window": "2028-01-20"
+    },
+    "alerts": [
+      { "severity": "warning", "pt": "Horas de trabalho ultrapassaram o limite de 48h/quinzena (50h registradas). Risco de violação do visto — orientar o aluno imediatamente.", "en": "Work hours exceeded the 48h/fortnight cap (50h logged). Visa-breach risk — advise the student immediately." }
+    ],
+    "renewal": {
+      "status": "not_due",
+      "label_pt": "Sem ação no momento", "label_en": "No action needed",
+      "next_pt": "Foco atual: regularizar as horas de trabalho.", "next_en": "Current focus: bring work hours back within cap."
+    },
+    "pathway": {
+      "route_pt": "Enfermagem → registro AHPRA → Skilled PR (profissão prioritária)",
+      "route_en": "Nursing → AHPRA registration → Skilled PR (priority occupation)",
+      "eligibility_pct": 85,
+      "note_pt": "Enfermagem é profissão prioritária; um dos caminhos de PR mais sólidos.",
+      "note_en": "Nursing is a priority occupation; one of the strongest PR pathways."
+    },
+    "alumni": {
+      "referrals": 1,
+      "converted_leads": 1,
+      "referred": [
+        { "name": "Larissa F. (Recife)", "became_lead": true }
+      ],
+      "testimonial_pt": "Cheguei em Sydney com tudo pronto. Minha prima já está no processo!",
+      "testimonial_en": "I arrived in Sydney with everything ready. My cousin is already in the process!"
+    }
+  },
+  {
+    "candidate_id": "diego-martins-rocha",
+    "name": "Diego Martins Rocha",
+    "photo": "https://randomuser.me/api/portraits/men/4.jpg",
+    "destination": "ireland",
+    "city_abroad": "Dublin",
+    "course": "English + IT",
+    "intake_pt": "Jan 2026",
+    "intake_en": "Jan 2026",
+    "current_stage": "renewal",
+    "stages_done": ["pre_departure", "arrival", "settling", "study_work"],
+    "compliance": {
+      "attendance_pct": 86,
+      "attendance_min": 85,
+      "work_hours_used": 18,
+      "work_hours_cap": 20,
+      "work_hours_unit_pt": "por semana (período letivo)",
+      "work_hours_unit_en": "per week (term time)",
+      "visa_expiry": "2026-09-30",
+      "renewal_window": "2026-07-01"
+    },
+    "alerts": [
+      { "severity": "warning", "pt": "Frequência em 86%, apenas 1 ponto acima do mínimo de 85% do ILEP. Monitorar para não comprometer a renovação.", "en": "Attendance at 86%, just 1 point above the ILEP 85% minimum. Monitor closely so it doesn't jeopardise renewal." },
+      { "severity": "info", "pt": "Janela de renovação aberta — visto expira em set/2026.", "en": "Renewal window open — visa expires Sep 2026." }
+    ],
+    "renewal": {
+      "status": "action_due",
+      "label_pt": "Renovação em andamento", "label_en": "Renewal in progress",
+      "next_pt": "Reunir extrato financeiro e comprovante de matrícula do 2º ciclo; agendar IRP.", "next_en": "Gather bank statement and 2nd-cycle enrolment proof; book IRP appointment."
+    },
+    "pathway": {
+      "route_pt": "2º ciclo de estudos → graduação na Irlanda → Stamp 1G / Critical Skills",
+      "route_en": "2nd study cycle → degree in Ireland → Stamp 1G / Critical Skills",
+      "eligibility_pct": 70,
+      "note_pt": "TI é setor de habilidades críticas na Irlanda; pathway viável via graduação.",
+      "note_en": "IT is a critical-skills sector in Ireland; pathway viable via a degree."
+    },
+    "alumni": {
+      "referrals": 3,
+      "converted_leads": 2,
+      "referred": [
+        { "name": "Rodrigo A. (Belém)", "became_lead": true },
+        { "name": "Bruno C. (Salvador)", "became_lead": true },
+        { "name": "Felipe S. (Sorocaba)", "became_lead": false }
+      ],
+      "testimonial_pt": "Dublin mudou minha vida. Indiquei três amigos e dois já fecharam!",
+      "testimonial_en": "Dublin changed my life. I referred three friends and two have already signed up!"
+    }
+  }
+]
