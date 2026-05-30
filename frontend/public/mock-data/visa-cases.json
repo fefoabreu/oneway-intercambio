@@ -142,5 +142,73 @@
       { "key": "lodge", "label_pt": "Submissão do visto", "label_en": "Visa lodgement", "status": "done" },
       { "key": "decision", "label_pt": "Decisão · Aprovado", "label_en": "Decision · Approved", "status": "done" }
     ]
+  },
+  {
+    "candidate_id": "vinicius-araujo-dias",
+    "candidate_name": "Vinícius Araújo Dias",
+    "destination": "ireland",
+    "visa_type": "Irish Study Visa (ILEP)",
+    "overall_pct": 30,
+    "target_intake_pt": "Janeiro 2027",
+    "target_intake_en": "January 2027",
+    "steps": [
+      { "key": "docs", "label_pt": "Documentos pessoais & passaporte", "label_en": "Personal docs & passport", "status": "done" },
+      { "key": "loa", "label_pt": "Carta de aceite (LoA) ILEP", "label_en": "ILEP Letter of Acceptance", "status": "in_progress" },
+      { "key": "funds", "label_pt": "Comprovação financeira (~€4.200)", "label_en": "Proof of funds (~€4,200)", "status": "in_progress" },
+      { "key": "insurance", "label_pt": "Seguro saúde privado", "label_en": "Private health insurance", "status": "pending" },
+      { "key": "lodge", "label_pt": "Submissão do visto", "label_en": "Visa lodgement", "status": "pending" },
+      { "key": "decision", "label_pt": "Decisão", "label_en": "Decision", "status": "pending" }
+    ]
+  },
+  {
+    "candidate_id": "mariana-souza-lima",
+    "candidate_name": "Mariana Souza Lima",
+    "destination": "malta",
+    "visa_type": "Malta National (long-stay) Visa",
+    "overall_pct": 33,
+    "target_intake_pt": "Setembro 2026",
+    "target_intake_en": "September 2026",
+    "steps": [
+      { "key": "docs", "label_pt": "Documentos pessoais & passaporte", "label_en": "Personal docs & passport", "status": "done" },
+      { "key": "loa", "label_pt": "Matrícula em escola licenciada", "label_en": "Enrolment in licensed school", "status": "in_progress" },
+      { "key": "funds", "label_pt": "Comprovação financeira", "label_en": "Proof of funds", "status": "in_progress" },
+      { "key": "insurance", "label_pt": "Seguro saúde", "label_en": "Health insurance", "status": "pending" },
+      { "key": "lodge", "label_pt": "Submissão do visto nacional", "label_en": "National visa lodgement", "status": "pending" },
+      { "key": "decision", "label_pt": "Decisão", "label_en": "Decision", "status": "pending" }
+    ]
+  },
+  {
+    "candidate_id": "carolina-ribeiro-dias",
+    "candidate_name": "Carolina Ribeiro Dias",
+    "destination": "ireland",
+    "visa_type": "Irish Study Visa (ILEP)",
+    "overall_pct": 20,
+    "target_intake_pt": "Janeiro 2027",
+    "target_intake_en": "January 2027",
+    "steps": [
+      { "key": "docs", "label_pt": "Documentos pessoais & passaporte", "label_en": "Personal docs & passport", "status": "done" },
+      { "key": "loa", "label_pt": "Carta de aceite (LoA) ILEP", "label_en": "ILEP Letter of Acceptance", "status": "in_progress" },
+      { "key": "funds", "label_pt": "Comprovação financeira (~€4.200)", "label_en": "Proof of funds (~€4,200)", "status": "pending" },
+      { "key": "insurance", "label_pt": "Seguro saúde privado", "label_en": "Private health insurance", "status": "pending" },
+      { "key": "lodge", "label_pt": "Submissão do visto", "label_en": "Visa lodgement", "status": "pending" },
+      { "key": "decision", "label_pt": "Decisão", "label_en": "Decision", "status": "pending" }
+    ]
+  },
+  {
+    "candidate_id": "bruno-costa-almeida",
+    "candidate_name": "Bruno Costa Almeida",
+    "destination": "malta",
+    "visa_type": "Malta National (long-stay) Visa",
+    "overall_pct": 18,
+    "target_intake_pt": "Outubro 2026",
+    "target_intake_en": "October 2026",
+    "steps": [
+      { "key": "docs", "label_pt": "Documentos pessoais & passaporte", "label_en": "Personal docs & passport", "status": "done" },
+      { "key": "loa", "label_pt": "Matrícula em escola licenciada", "label_en": "Enrolment in licensed school", "status": "in_progress" },
+      { "key": "funds", "label_pt": "Comprovação financeira", "label_en": "Proof of funds", "status": "pending" },
+      { "key": "insurance", "label_pt": "Seguro saúde", "label_en": "Health insurance", "status": "pending" },
+      { "key": "lodge", "label_pt": "Submissão do visto nacional", "label_en": "National visa lodgement", "status": "pending" },
+      { "key": "decision", "label_pt": "Decisão", "label_en": "Decision", "status": "pending" }
+    ]
   }
 ]
