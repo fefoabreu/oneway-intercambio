@@ -1,0 +1,33 @@
+{
+  "objective_pt": "Selecionar os candidatos certos e direcioná-los ao destino certo — maximizando aprovação de visto, protegendo o investimento do aluno e a reputação da One Way.",
+  "objective_en": "Select the right candidates and match them to the right destination — maximizing visa approval while protecting the student's investment and One Way's reputation.",
+  "dimensions": [
+    { "key": "academic", "label_pt": "Formação acadêmica", "label_en": "Academic background", "weight": 18, "desc_pt": "Maior qualificação concluída.", "desc_en": "Highest completed qualification." },
+    { "key": "english", "label_pt": "Proficiência em inglês", "label_en": "English proficiency", "weight": 22, "desc_pt": "Nível CEFR atual / teste.", "desc_en": "Current CEFR level / test." },
+    { "key": "financial", "label_pt": "Capacidade financeira", "label_en": "Financial capacity", "weight": 20, "desc_pt": "Fundos comprovados vs. limiar do destino.", "desc_en": "Proven funds vs. destination threshold." },
+    { "key": "intent", "label_pt": "Intenção de estudo genuína", "label_en": "Genuine study intent", "weight": 15, "desc_pt": "Coerência do plano de estudos (estilo Genuine Student).", "desc_en": "Coherence of the study plan (Genuine Student style)." },
+    { "key": "documentation", "label_pt": "Prontidão documental", "label_en": "Documentation readiness", "weight": 10, "desc_pt": "Passaporte, histórico de visto e documentos de apoio.", "desc_en": "Passport, visa history and supporting documents." },
+    { "key": "immigration_risk", "label_pt": "Risco migratório", "label_en": "Immigration risk", "weight": 8, "desc_pt": "Recusas/overstays anteriores (redutor — nunca por identidade).", "desc_en": "Prior refusals/overstays (reducer — never identity-based)." },
+    { "key": "program_fit", "label_pt": "Aderência ao programa", "label_en": "Program fit", "weight": 7, "desc_pt": "Alinhamento do curso ao perfil e objetivos.", "desc_en": "Alignment of the course to profile and goals." }
+  ],
+  "stages": [
+    { "key": "lead", "label_pt": "Lead", "label_en": "Lead", "color": "slate", "desc_pt": "Interesse inicial captado.", "desc_en": "Initial interest captured.", "ai_role_pt": "Qualifica e pré-pontua o lead a partir dos dados informados.", "ai_role_en": "Qualifies and pre-scores the lead from submitted data." },
+    { "key": "event", "label_pt": "Participou de evento", "label_en": "Attended event", "color": "sky", "desc_pt": "Compareceu a feira/evento da One Way.", "desc_en": "Attended a One Way fair/event.", "ai_role_pt": "Atualiza o engajamento e sugere próximo passo personalizado.", "ai_role_en": "Updates engagement and suggests a personalized next step." },
+    { "key": "quoted", "label_pt": "Cotado / Interessado", "label_en": "Quoted / Interested", "color": "teal", "desc_pt": "Recebeu proposta de programa.", "desc_en": "Received a program proposal.", "ai_role_pt": "Recomenda destino e programa com base no perfil.", "ai_role_en": "Recommends destination and program based on profile." },
+    { "key": "analysis", "label_pt": "Análise de IA", "label_en": "AI Analysis", "color": "blue", "desc_pt": "Pontuação de prontidão e match de destino.", "desc_en": "Readiness score and destination match.", "ai_role_pt": "Gera a Pontuação de Prontidão, propensão de visto e a recomendação.", "ai_role_en": "Generates the Readiness Score, visa propensity and the recommendation." },
+    { "key": "visa", "label_pt": "Processo de visto", "label_en": "Visa process", "color": "gold", "desc_pt": "Documentação e aplicação de visto em andamento.", "desc_en": "Documentation and visa application in progress.", "ai_role_pt": "Monitora checklist, prazos e completude documental.", "ai_role_en": "Monitors checklist, deadlines and document completeness." },
+    { "key": "enrolled", "label_pt": "Matriculado", "label_en": "Enrolled", "color": "emerald", "desc_pt": "Visto aprovado e matrícula confirmada.", "desc_en": "Visa approved and enrolment confirmed.", "ai_role_pt": "Inicia a jornada do aluno e acompanhamento pós-embarque.", "ai_role_en": "Kicks off the student journey and post-departure follow-up." }
+  ],
+  "destinations": [
+    { "key": "australia", "label": "Austrália", "flag": "🇦🇺", "difficulty": 5, "tagline_pt": "Carro-chefe · pathway de residência", "tagline_en": "Flagship · residency pathway", "requirements_pt": ["Genuine Student (GS)", "CoE de instituição CRICOS", "Fundos ~AUD 29.710/ano + curso", "Inglês comprovado (IELTS/equiv.)", "OSHC (seguro saúde)"], "requirements_en": ["Genuine Student (GS)", "CoE from CRICOS provider", "Funds ~AUD 29,710/yr + tuition", "Proven English (IELTS/equiv.)", "OSHC (health cover)"] },
+    { "key": "ireland", "label": "Irlanda", "flag": "🇮🇪", "difficulty": 3, "tagline_pt": "ILEP · estudar e trabalhar 25 semanas", "tagline_en": "ILEP · 25-week study+work", "requirements_pt": ["Curso ILEP de 25 semanas", "Comprovação financeira (~€4.200)", "Seguro saúde privado", "Carta de aceite (LoA)"], "requirements_en": ["25-week ILEP course", "Proof of funds (~€4,200)", "Private health insurance", "Letter of Acceptance (LoA)"] },
+    { "key": "malta", "label": "Malta", "flag": "🇲🇹", "difficulty": 2, "tagline_pt": "Entrada mais acessível · estudar e trabalhar", "tagline_en": "Most accessible · study + work", "requirements_pt": ["Matrícula em escola licenciada", "Comprovação financeira", "Seguro saúde", "Visto nacional (longa duração)"], "requirements_en": ["Enrolment in a licensed school", "Proof of funds", "Health insurance", "National (long-stay) visa"] },
+    { "key": "spain", "label": "Espanha", "flag": "🇪🇸", "difficulty": 3, "tagline_pt": "Barcelona · idioma e lifestyle", "tagline_en": "Barcelona · language & lifestyle", "requirements_pt": ["Matrícula em curso", "Comprovação financeira (IPREM)", "Seguro saúde", "Visto de estudante"], "requirements_en": ["Course enrolment", "Proof of funds (IPREM)", "Health insurance", "Student visa"] }
+  ],
+  "bands": [
+    { "key": "READY", "label_pt": "Pronto para aplicar", "label_en": "Ready to apply" },
+    { "key": "READY_WITH_CONDITIONS", "label_pt": "Pronto com condições", "label_en": "Ready w/ conditions" },
+    { "key": "DEVELOP_FIRST", "label_pt": "Desenvolver primeiro", "label_en": "Develop first" },
+    { "key": "REDIRECT", "label_pt": "Redirecionar destino", "label_en": "Redirect destination" }
+  ]
+}

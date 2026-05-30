@@ -1,0 +1,422 @@
+[
+  {
+    "id": "ana-beatriz-carvalho",
+    "name": "Ana Beatriz Carvalho",
+    "photo": "https://randomuser.me/api/portraits/women/68.jpg",
+    "origin_city": "Florianópolis, SC",
+    "goal_pt": "Estudar e trabalhar · pathway de residência",
+    "goal_en": "Study + work · residency pathway",
+    "current_english": "C1",
+    "highest_education_pt": "Ensino superior completo (Administração)",
+    "highest_education_en": "Bachelor's degree (Business)",
+    "stage": "visa",
+    "created_at": "2026-02-11",
+    "profile": {
+      "readiness_score": 90,
+      "score_breakdown": { "academic": 9.0, "english": 9.5, "financial": 8.5, "intent": 9.5, "documentation": 9.0, "immigration_risk": 9.5, "program_fit": 9.0 },
+      "recommended_destination": "australia",
+      "destination_fit": [
+        { "destination": "australia", "propensity": "high", "score": 90, "rationale_pt": "Graduação concluída, C1 e fundos comprovados atendem ao Genuine Student e ao requisito financeiro (~AUD 29.710/ano).", "rationale_en": "Completed degree, C1 and proven funds meet the Genuine Student test and the financial requirement (~AUD 29,710/yr)." },
+        { "destination": "malta", "propensity": "high", "score": 88, "rationale_pt": "Entrada acessível; perfil acima do exigido.", "rationale_en": "Accessible entry; profile well above the bar." },
+        { "destination": "ireland", "propensity": "high", "score": 84, "rationale_pt": "Programa study+work de 25 semanas perfeitamente elegível.", "rationale_en": "25-week study+work program comfortably eligible." },
+        { "destination": "spain", "propensity": "moderate", "score": 72, "rationale_pt": "Pathway de idioma viável; exige nível de espanhol.", "rationale_en": "Language pathway viable; requires Spanish level." }
+      ],
+      "ai_status": "READY",
+      "ai_text_pt": "Candidata mais forte do funil. Graduação, inglês C1 e capacidade financeira comprovada sustentam um Genuine Student sólido para a Austrália. Plano de estudos coerente com a carreira. Recomendado avançar para CoE e aplicação de visto Subclass 500 sem condições.",
+      "ai_text_en": "Strongest candidate in the pipeline. Degree, C1 English and proven financial capacity support a solid Genuine Student case for Australia. Study plan coherent with her career. Recommend proceeding to CoE and Subclass 500 application without conditions.",
+      "ai_conditions_pt": [],
+      "ai_conditions_en": [],
+      "key_facts": [
+        { "label_pt": "Orçamento", "label_en": "Budget", "value": "R$ 95.000+" },
+        { "label_pt": "Histórico de visto", "label_en": "Visa history", "value": "Schengen 2023 (ok)" },
+        { "label_pt": "Curso alvo", "label_en": "Target course", "value": "Diploma of Business" },
+        { "label_pt": "Disponibilidade", "label_en": "Availability", "value": "Jul 2026" }
+      ]
+    }
+  },
+  {
+    "id": "lucas-oliveira-martins",
+    "name": "Lucas Oliveira Martins",
+    "photo": "https://randomuser.me/api/portraits/men/32.jpg",
+    "origin_city": "Curitiba, PR",
+    "goal_pt": "Estudar e trabalhar · carreira em TI",
+    "goal_en": "Study + work · IT career",
+    "current_english": "C1",
+    "highest_education_pt": "Pós-graduação (Eng. de Software)",
+    "highest_education_en": "Postgraduate (Software Eng.)",
+    "stage": "enrolled",
+    "created_at": "2025-11-03",
+    "profile": {
+      "readiness_score": 91,
+      "score_breakdown": { "academic": 9.5, "english": 9.0, "financial": 9.0, "intent": 9.0, "documentation": 9.5, "immigration_risk": 9.5, "program_fit": 9.0 },
+      "recommended_destination": "australia",
+      "destination_fit": [
+        { "destination": "australia", "propensity": "high", "score": 92, "rationale_pt": "Pós-graduação e área de TI alinhadas à lista de habilidades; forte caso de pathway.", "rationale_en": "Postgrad and IT field aligned to skills list; strong pathway case." },
+        { "destination": "ireland", "propensity": "high", "score": 86, "rationale_pt": "Hub de tecnologia; alta empregabilidade.", "rationale_en": "Tech hub; high employability." },
+        { "destination": "malta", "propensity": "high", "score": 85, "rationale_pt": "Setor de iGaming/TI aquecido.", "rationale_en": "Hot iGaming/IT sector." },
+        { "destination": "spain", "propensity": "moderate", "score": 70, "rationale_pt": "Barcelona tem cena tech; barreira de idioma.", "rationale_en": "Barcelona has a tech scene; language barrier." }
+      ],
+      "ai_status": "READY",
+      "ai_text_pt": "Matriculado e com visto aprovado. Perfil exemplar: pós em TI, C1, fundos sólidos e intenção clara de pathway. Caso usado como referência para novos candidatos de TI.",
+      "ai_text_en": "Enrolled with visa approved. Exemplary profile: IT postgrad, C1, solid funds and a clear pathway intent. Used as a reference case for new IT candidates.",
+      "ai_conditions_pt": [],
+      "ai_conditions_en": [],
+      "key_facts": [
+        { "label_pt": "Orçamento", "label_en": "Budget", "value": "R$ 120.000+" },
+        { "label_pt": "Status", "label_en": "Status", "value": "Visto aprovado" },
+        { "label_pt": "Curso", "label_en": "Course", "value": "Master of IT (Brisbane)" },
+        { "label_pt": "Intake", "label_en": "Intake", "value": "Fev 2026" }
+      ]
+    }
+  },
+  {
+    "id": "mariana-souza-lima",
+    "name": "Mariana Souza Lima",
+    "photo": "https://randomuser.me/api/portraits/women/44.jpg",
+    "origin_city": "Goiânia, GO",
+    "goal_pt": "Estudar inglês e trabalhar",
+    "goal_en": "Study English + work",
+    "current_english": "B1",
+    "highest_education_pt": "Ensino médio completo",
+    "highest_education_en": "High school completed",
+    "stage": "analysis",
+    "created_at": "2026-03-22",
+    "profile": {
+      "readiness_score": 64,
+      "score_breakdown": { "academic": 5.0, "english": 6.5, "financial": 6.0, "intent": 7.5, "documentation": 7.0, "immigration_risk": 8.5, "program_fit": 6.5 },
+      "recommended_destination": "malta",
+      "destination_fit": [
+        { "destination": "malta", "propensity": "high", "score": 82, "rationale_pt": "Entrada acessível para estudar e trabalhar; perfil de ensino médio é adequado.", "rationale_en": "Accessible study+work entry; a high-school profile fits well." },
+        { "destination": "ireland", "propensity": "moderate", "score": 68, "rationale_pt": "Programa de 25 semanas é viável com reforço de inglês e fundos.", "rationale_en": "25-week program viable with English and funds top-up." },
+        { "destination": "australia", "propensity": "develop", "score": 48, "rationale_pt": "Sem graduação e fundos no limite enfraquecem o Genuine Student.", "rationale_en": "No degree and borderline funds weaken the Genuine Student case." },
+        { "destination": "spain", "propensity": "moderate", "score": 60, "rationale_pt": "Opção de idioma; exige espanhol básico.", "rationale_en": "Language option; needs basic Spanish." }
+      ],
+      "ai_status": "REDIRECT",
+      "ai_text_pt": "Boa intenção e baixo risco migratório, mas perfil acadêmico e financeiro tornam a Austrália arriscada agora. Recomenda-se redirecionar para Malta — protege o investimento da aluna e mantém a meta de estudar e trabalhar.",
+      "ai_text_en": "Good intent and low migration risk, but the academic and financial profile makes Australia risky now. Recommend redirecting to Malta — protects the student's investment while keeping the study+work goal.",
+      "ai_conditions_pt": ["Comprovar fundos para 6 meses iniciais", "Reavaliar Austrália após 1 ano e melhora de inglês para B2"],
+      "ai_conditions_en": ["Prove funds for the first 6 months", "Re-assess Australia after 1 year and English at B2"],
+      "key_facts": [
+        { "label_pt": "Orçamento", "label_en": "Budget", "value": "R$ 45.000" },
+        { "label_pt": "Histórico de visto", "label_en": "Visa history", "value": "Nenhum" },
+        { "label_pt": "Curso alvo", "label_en": "Target course", "value": "General English (Malta)" },
+        { "label_pt": "Disponibilidade", "label_en": "Availability", "value": "Set 2026" }
+      ]
+    }
+  },
+  {
+    "id": "pedro-henrique-alves",
+    "name": "Pedro Henrique Alves",
+    "photo": "https://randomuser.me/api/portraits/men/45.jpg",
+    "origin_city": "Belo Horizonte, MG",
+    "goal_pt": "Estudar e trabalhar · hotelaria",
+    "goal_en": "Study + work · hospitality",
+    "current_english": "B2",
+    "highest_education_pt": "Curso técnico (Gastronomia)",
+    "highest_education_en": "Technical diploma (Culinary)",
+    "stage": "visa",
+    "created_at": "2026-01-19",
+    "profile": {
+      "readiness_score": 74,
+      "score_breakdown": { "academic": 6.5, "english": 7.5, "financial": 7.0, "intent": 8.0, "documentation": 8.0, "immigration_risk": 9.0, "program_fit": 7.5 },
+      "recommended_destination": "ireland",
+      "destination_fit": [
+        { "destination": "ireland", "propensity": "high", "score": 80, "rationale_pt": "ILEP de 25 semanas com direito a trabalho; setor de hotelaria forte em Dublin.", "rationale_en": "25-week ILEP with work rights; strong hospitality sector in Dublin." },
+        { "destination": "malta", "propensity": "high", "score": 78, "rationale_pt": "Turismo aquecido; entrada simples.", "rationale_en": "Booming tourism; simple entry." },
+        { "destination": "australia", "propensity": "moderate", "score": 62, "rationale_pt": "Possível via VET em hotelaria; fundos precisam de reforço.", "rationale_en": "Possible via hospitality VET; funds need a top-up." },
+        { "destination": "spain", "propensity": "moderate", "score": 58, "rationale_pt": "Opção de idioma + turismo.", "rationale_en": "Language + tourism option." }
+      ],
+      "ai_status": "READY",
+      "ai_text_pt": "Perfil técnico alinhado à hotelaria, B2 e baixo risco migratório. Irlanda é o melhor match: study+work elegível e empregabilidade alta na área. Em aplicação de visto.",
+      "ai_text_en": "Technical profile aligned to hospitality, B2 and low migration risk. Ireland is the best match: eligible study+work and high employability in the field. In visa application.",
+      "ai_conditions_pt": ["Confirmar carta de aceite (LoA) da escola parceira"],
+      "ai_conditions_en": ["Confirm Letter of Acceptance (LoA) from partner school"],
+      "key_facts": [
+        { "label_pt": "Orçamento", "label_en": "Budget", "value": "R$ 60.000" },
+        { "label_pt": "Histórico de visto", "label_en": "Visa history", "value": "Nenhum" },
+        { "label_pt": "Curso alvo", "label_en": "Target course", "value": "English + Hospitality" },
+        { "label_pt": "Disponibilidade", "label_en": "Availability", "value": "Ago 2026" }
+      ]
+    }
+  },
+  {
+    "id": "juliana-ferreira-rocha",
+    "name": "Juliana Ferreira Rocha",
+    "photo": "https://randomuser.me/api/portraits/women/12.jpg",
+    "origin_city": "Recife, PE",
+    "goal_pt": "Estudar inglês · futura graduação",
+    "goal_en": "Study English · future degree",
+    "current_english": "A2",
+    "highest_education_pt": "Ensino superior completo (Pedagogia)",
+    "highest_education_en": "Bachelor's degree (Education)",
+    "stage": "quoted",
+    "created_at": "2026-04-08",
+    "profile": {
+      "readiness_score": 58,
+      "score_breakdown": { "academic": 8.5, "english": 3.0, "financial": 7.0, "intent": 6.5, "documentation": 7.5, "immigration_risk": 8.5, "program_fit": 5.5 },
+      "recommended_destination": "ireland",
+      "destination_fit": [
+        { "destination": "ireland", "propensity": "develop", "score": 60, "rationale_pt": "Graduação ajuda, mas inglês A2 é o gargalo para o ILEP.", "rationale_en": "Degree helps, but A2 English is the bottleneck for ILEP." },
+        { "destination": "malta", "propensity": "moderate", "score": 66, "rationale_pt": "Pode iniciar com curso de inglês de base.", "rationale_en": "Can start with a foundational English course." },
+        { "destination": "australia", "propensity": "develop", "score": 44, "rationale_pt": "Inglês insuficiente para o requisito; risco de recusa alto.", "rationale_en": "English insufficient for the requirement; high refusal risk." },
+        { "destination": "spain", "propensity": "moderate", "score": 55, "rationale_pt": "Idioma novo; pouco ganho sobre o objetivo de inglês.", "rationale_en": "New language; little gain over the English goal." }
+      ],
+      "ai_status": "DEVELOP_FIRST",
+      "ai_text_pt": "Excelente base acadêmica e fundos razoáveis, mas o inglês A2 é o fator limitante. Recomenda-se um programa de inglês base (Malta ou Irlanda) antes de qualquer destino com requisito de proficiência. Evita recusa e protege o investimento.",
+      "ai_text_en": "Excellent academic base and reasonable funds, but A2 English is the limiting factor. Recommend a foundational English program (Malta or Ireland) before any destination with a proficiency requirement. Avoids refusal and protects the investment.",
+      "ai_conditions_pt": ["Atingir B1 antes da aplicação de visto", "Definir plano de estudos coerente com a carreira"],
+      "ai_conditions_en": ["Reach B1 before the visa application", "Define a study plan coherent with her career"],
+      "key_facts": [
+        { "label_pt": "Orçamento", "label_en": "Budget", "value": "R$ 55.000" },
+        { "label_pt": "Histórico de visto", "label_en": "Visa history", "value": "Nenhum" },
+        { "label_pt": "Curso alvo", "label_en": "Target course", "value": "General English" },
+        { "label_pt": "Disponibilidade", "label_en": "Availability", "value": "2027" }
+      ]
+    }
+  },
+  {
+    "id": "rafael-gomes-pereira",
+    "name": "Rafael Gomes Pereira",
+    "photo": "https://randomuser.me/api/portraits/men/76.jpg",
+    "origin_city": "Manaus, AM",
+    "goal_pt": "Trabalhar e estudar",
+    "goal_en": "Work + study",
+    "current_english": "A2",
+    "highest_education_pt": "Ensino médio completo",
+    "highest_education_en": "High school completed",
+    "stage": "analysis",
+    "created_at": "2026-04-15",
+    "profile": {
+      "readiness_score": 44,
+      "score_breakdown": { "academic": 5.0, "english": 3.0, "financial": 4.0, "intent": 6.0, "documentation": 5.0, "immigration_risk": 4.5, "program_fit": 5.0 },
+      "recommended_destination": "malta",
+      "destination_fit": [
+        { "destination": "malta", "propensity": "develop", "score": 55, "rationale_pt": "Entrada mais acessível, mas fundos baixos e recusa anterior pesam.", "rationale_en": "Most accessible entry, but low funds and a prior refusal weigh in." },
+        { "destination": "ireland", "propensity": "develop", "score": 42, "rationale_pt": "Fundos e inglês abaixo do exigido.", "rationale_en": "Funds and English below requirement." },
+        { "destination": "australia", "propensity": "not_recommended", "score": 28, "rationale_pt": "Recusa anterior + fundos baixos + inglês A2 tornam a recusa muito provável.", "rationale_en": "Prior refusal + low funds + A2 English make refusal very likely." },
+        { "destination": "spain", "propensity": "develop", "score": 40, "rationale_pt": "Barreira de idioma adicional.", "rationale_en": "Additional language barrier." }
+      ],
+      "ai_status": "DEVELOP_FIRST",
+      "ai_text_pt": "Atenção: recusa de visto anterior (EUA, 2024), fundos abaixo do mínimo e inglês A2. Aplicar agora — em qualquer destino com requisito — coloca o investimento em risco. Recomenda-se plano de 6–9 meses: reforço financeiro, inglês para B1 e documentação. Malta como meta inicial após o desenvolvimento.",
+      "ai_text_en": "Caution: prior visa refusal (USA, 2024), funds below minimum and A2 English. Applying now — to any destination with a requirement — puts the investment at risk. Recommend a 6–9 month plan: financial top-up, English to B1 and documentation. Malta as the initial target after development.",
+      "ai_conditions_pt": ["Documentar e explicar a recusa anterior", "Comprovar fundos mínimos", "Inglês mínimo B1"],
+      "ai_conditions_en": ["Document and explain the prior refusal", "Prove minimum funds", "English at least B1"],
+      "key_facts": [
+        { "label_pt": "Orçamento", "label_en": "Budget", "value": "R$ 28.000" },
+        { "label_pt": "Histórico de visto", "label_en": "Visa history", "value": "Recusa EUA 2024" },
+        { "label_pt": "Curso alvo", "label_en": "Target course", "value": "A definir" },
+        { "label_pt": "Disponibilidade", "label_en": "Availability", "value": "2027" }
+      ]
+    }
+  },
+  {
+    "id": "camila-rodrigues-nunes",
+    "name": "Camila Rodrigues Nunes",
+    "photo": "https://randomuser.me/api/portraits/women/90.jpg",
+    "origin_city": "São Paulo, SP",
+    "goal_pt": "Estudar e trabalhar · pathway",
+    "goal_en": "Study + work · pathway",
+    "current_english": "C1",
+    "highest_education_pt": "Ensino superior completo (Enfermagem)",
+    "highest_education_en": "Bachelor's degree (Nursing)",
+    "stage": "enrolled",
+    "created_at": "2025-12-01",
+    "profile": {
+      "readiness_score": 89,
+      "score_breakdown": { "academic": 9.0, "english": 9.0, "financial": 8.5, "intent": 9.0, "documentation": 9.0, "immigration_risk": 9.5, "program_fit": 9.5 },
+      "recommended_destination": "australia",
+      "destination_fit": [
+        { "destination": "australia", "propensity": "high", "score": 90, "rationale_pt": "Enfermagem é profissão em demanda; forte caso de pathway e Genuine Student.", "rationale_en": "Nursing is in-demand; strong pathway and Genuine Student case." },
+        { "destination": "ireland", "propensity": "high", "score": 85, "rationale_pt": "Setor de saúde com alta demanda.", "rationale_en": "High-demand healthcare sector." },
+        { "destination": "malta", "propensity": "high", "score": 84, "rationale_pt": "Perfil acima do exigido.", "rationale_en": "Profile above the bar." },
+        { "destination": "spain", "propensity": "moderate", "score": 68, "rationale_pt": "Exige revalidação e espanhol.", "rationale_en": "Requires revalidation and Spanish." }
+      ],
+      "ai_status": "READY",
+      "ai_text_pt": "Matriculada, visto aprovado. Profissão em demanda alinhada ao pathway australiano, C1 e documentação impecável. Caso de sucesso de referência.",
+      "ai_text_en": "Enrolled, visa approved. In-demand profession aligned to the Australian pathway, C1 and impeccable documentation. A reference success case.",
+      "ai_conditions_pt": [],
+      "ai_conditions_en": [],
+      "key_facts": [
+        { "label_pt": "Orçamento", "label_en": "Budget", "value": "R$ 110.000" },
+        { "label_pt": "Status", "label_en": "Status", "value": "Visto aprovado" },
+        { "label_pt": "Curso", "label_en": "Course", "value": "Nursing pathway (Sydney)" },
+        { "label_pt": "Intake", "label_en": "Intake", "value": "Mar 2026" }
+      ]
+    }
+  },
+  {
+    "id": "bruno-costa-almeida",
+    "name": "Bruno Costa Almeida",
+    "photo": "https://randomuser.me/api/portraits/men/22.jpg",
+    "origin_city": "Salvador, BA",
+    "goal_pt": "Estudar inglês e trabalhar",
+    "goal_en": "Study English + work",
+    "current_english": "B1",
+    "highest_education_pt": "Ensino superior incompleto (Marketing)",
+    "highest_education_en": "Incomplete degree (Marketing)",
+    "stage": "quoted",
+    "created_at": "2026-04-02",
+    "profile": {
+      "readiness_score": 60,
+      "score_breakdown": { "academic": 5.5, "english": 6.0, "financial": 6.0, "intent": 6.5, "documentation": 7.0, "immigration_risk": 8.0, "program_fit": 6.0 },
+      "recommended_destination": "malta",
+      "destination_fit": [
+        { "destination": "malta", "propensity": "high", "score": 76, "rationale_pt": "Entrada acessível; perfil B1 e graduação incompleta são adequados.", "rationale_en": "Accessible entry; B1 and incomplete degree fit well." },
+        { "destination": "ireland", "propensity": "moderate", "score": 66, "rationale_pt": "Viável com reforço de fundos.", "rationale_en": "Viable with a funds top-up." },
+        { "destination": "australia", "propensity": "develop", "score": 50, "rationale_pt": "Graduação incompleta e fundos no limite enfraquecem o caso.", "rationale_en": "Incomplete degree and borderline funds weaken the case." },
+        { "destination": "spain", "propensity": "moderate", "score": 58, "rationale_pt": "Opção de idioma + lifestyle.", "rationale_en": "Language + lifestyle option." }
+      ],
+      "ai_status": "REDIRECT",
+      "ai_text_pt": "Perfil mediano com boa intenção. Malta é o melhor primeiro passo: acessível, com trabalho permitido e custo menor. Mantém a porta aberta para Irlanda/Austrália após ganho de inglês e fundos.",
+      "ai_text_en": "Mid-level profile with good intent. Malta is the best first step: accessible, work-enabled and lower cost. Keeps the door open to Ireland/Australia after English and funds improve.",
+      "ai_conditions_pt": ["Definir orçamento para 6 meses", "Plano de progressão de inglês"],
+      "ai_conditions_en": ["Set a 6-month budget", "English progression plan"],
+      "key_facts": [
+        { "label_pt": "Orçamento", "label_en": "Budget", "value": "R$ 42.000" },
+        { "label_pt": "Histórico de visto", "label_en": "Visa history", "value": "Nenhum" },
+        { "label_pt": "Curso alvo", "label_en": "Target course", "value": "General English (Malta)" },
+        { "label_pt": "Disponibilidade", "label_en": "Availability", "value": "Out 2026" }
+      ]
+    }
+  },
+  {
+    "id": "thiago-nascimento-lima",
+    "name": "Thiago Nascimento Lima",
+    "photo": "https://randomuser.me/api/portraits/men/52.jpg",
+    "origin_city": "Porto Alegre, RS",
+    "goal_pt": "Estudar e trabalhar · marketing",
+    "goal_en": "Study + work · marketing",
+    "current_english": "B2",
+    "highest_education_pt": "Ensino superior completo (Publicidade)",
+    "highest_education_en": "Bachelor's degree (Advertising)",
+    "stage": "lead",
+    "created_at": "2026-05-12",
+    "profile": {
+      "readiness_score": 68,
+      "score_breakdown": { "academic": 8.0, "english": 7.5, "financial": 6.0, "intent": 6.5, "documentation": 6.5, "immigration_risk": 8.5, "program_fit": 6.5 },
+      "recommended_destination": "ireland",
+      "destination_fit": [
+        { "destination": "ireland", "propensity": "high", "score": 76, "rationale_pt": "Graduação + B2 elegíveis ao ILEP; mercado criativo em Dublin.", "rationale_en": "Degree + B2 eligible for ILEP; creative market in Dublin." },
+        { "destination": "australia", "propensity": "moderate", "score": 64, "rationale_pt": "Elegível, mas fundos precisam subir para o limiar.", "rationale_en": "Eligible, but funds must rise to threshold." },
+        { "destination": "malta", "propensity": "high", "score": 78, "rationale_pt": "Entrada simples e custo menor.", "rationale_en": "Simple entry and lower cost." },
+        { "destination": "spain", "propensity": "moderate", "score": 62, "rationale_pt": "Barcelona forte em criatividade; idioma a desenvolver.", "rationale_en": "Barcelona strong in creative; language to develop." }
+      ],
+      "ai_status": "READY_WITH_CONDITIONS",
+      "ai_text_pt": "Lead promissor: graduação e B2 sustentam Irlanda. Principal ponto de atenção é a comprovação financeira, ainda no limite. Recomenda-se qualificar fundos antes de avançar para cotação formal.",
+      "ai_text_en": "Promising lead: degree and B2 support Ireland. Main watch-out is proof of funds, still borderline. Recommend qualifying funds before moving to a formal quote.",
+      "ai_conditions_pt": ["Comprovar fundos ao limiar do destino", "Confirmar data de intake"],
+      "ai_conditions_en": ["Prove funds to the destination threshold", "Confirm intake date"],
+      "key_facts": [
+        { "label_pt": "Orçamento", "label_en": "Budget", "value": "R$ 50.000" },
+        { "label_pt": "Histórico de visto", "label_en": "Visa history", "value": "Nenhum" },
+        { "label_pt": "Origem do lead", "label_en": "Lead source", "value": "Instagram" },
+        { "label_pt": "Disponibilidade", "label_en": "Availability", "value": "2027" }
+      ]
+    }
+  },
+  {
+    "id": "larissa-mendes-pinto",
+    "name": "Larissa Mendes Pinto",
+    "photo": "https://randomuser.me/api/portraits/women/30.jpg",
+    "origin_city": "Fortaleza, CE",
+    "goal_pt": "Estudar inglês",
+    "goal_en": "Study English",
+    "current_english": "A2",
+    "highest_education_pt": "Ensino médio completo",
+    "highest_education_en": "High school completed",
+    "stage": "lead",
+    "created_at": "2026-05-20",
+    "profile": {
+      "readiness_score": 42,
+      "score_breakdown": { "academic": 5.0, "english": 3.0, "financial": 4.5, "intent": 5.5, "documentation": 4.0, "immigration_risk": 8.0, "program_fit": 4.5 },
+      "recommended_destination": "malta",
+      "destination_fit": [
+        { "destination": "malta", "propensity": "develop", "score": 56, "rationale_pt": "Destino mais acessível, mas fundos e documentação ainda incipientes.", "rationale_en": "Most accessible destination, but funds and documents still early-stage." },
+        { "destination": "ireland", "propensity": "develop", "score": 44, "rationale_pt": "Inglês e fundos abaixo do exigido.", "rationale_en": "English and funds below requirement." },
+        { "destination": "australia", "propensity": "not_recommended", "score": 30, "rationale_pt": "Perfil distante do Genuine Student e do requisito financeiro.", "rationale_en": "Profile far from Genuine Student and financial requirement." },
+        { "destination": "spain", "propensity": "develop", "score": 42, "rationale_pt": "Idioma adicional dificulta o objetivo.", "rationale_en": "Additional language complicates the goal." }
+      ],
+      "ai_status": "DEVELOP_FIRST",
+      "ai_text_pt": "Lead em estágio inicial. Objetivo de inglês é válido, mas fundos, documentação e nível atual exigem preparação. Recomenda-se trilha de desenvolvimento e reavaliar em evento da One Way. Não cotar destino com requisito ainda.",
+      "ai_text_en": "Early-stage lead. The English goal is valid, but funds, documentation and current level require preparation. Recommend a development track and re-assess at a One Way event. Do not quote a requirement-gated destination yet.",
+      "ai_conditions_pt": ["Levantar capacidade financeira real", "Inglês para B1", "Reunir documentação base"],
+      "ai_conditions_en": ["Establish real financial capacity", "English to B1", "Gather base documentation"],
+      "key_facts": [
+        { "label_pt": "Orçamento", "label_en": "Budget", "value": "A confirmar" },
+        { "label_pt": "Histórico de visto", "label_en": "Visa history", "value": "Nenhum" },
+        { "label_pt": "Origem do lead", "label_en": "Lead source", "value": "Feira de intercâmbio" },
+        { "label_pt": "Disponibilidade", "label_en": "Availability", "value": "2027+" }
+      ]
+    }
+  },
+  {
+    "id": "gabriel-santos-ribeiro",
+    "name": "Gabriel Santos Ribeiro",
+    "photo": "https://randomuser.me/api/portraits/men/15.jpg",
+    "origin_city": "Campinas, SP",
+    "goal_pt": "Trabalhar e estudar inglês",
+    "goal_en": "Work + study English",
+    "current_english": "A1",
+    "highest_education_pt": "Ensino médio completo",
+    "highest_education_en": "High school completed",
+    "stage": "event",
+    "created_at": "2026-05-05",
+    "profile": {
+      "readiness_score": 38,
+      "score_breakdown": { "academic": 5.0, "english": 2.0, "financial": 4.0, "intent": 5.0, "documentation": 4.5, "immigration_risk": 7.5, "program_fit": 4.0 },
+      "recommended_destination": "malta",
+      "destination_fit": [
+        { "destination": "malta", "propensity": "develop", "score": 52, "rationale_pt": "Acessível, mas A1 e fundos baixos exigem preparação inicial.", "rationale_en": "Accessible, but A1 and low funds need initial preparation." },
+        { "destination": "ireland", "propensity": "develop", "score": 40, "rationale_pt": "Abaixo do exigido em inglês e fundos.", "rationale_en": "Below requirement on English and funds." },
+        { "destination": "australia", "propensity": "not_recommended", "score": 26, "rationale_pt": "Inviável no momento.", "rationale_en": "Not viable at this time." },
+        { "destination": "spain", "propensity": "develop", "score": 38, "rationale_pt": "Idioma adicional.", "rationale_en": "Additional language." }
+      ],
+      "ai_status": "DEVELOP_FIRST",
+      "ai_text_pt": "Compareceu a evento; engajado mas em estágio muito inicial (inglês A1, fundos baixos). Recomenda-se nutrir o relacionamento e oferecer trilha de preparação. Cotar destino agora geraria expectativa irreal e risco de recusa.",
+      "ai_text_en": "Attended an event; engaged but very early-stage (A1 English, low funds). Recommend nurturing the relationship and offering a preparation track. Quoting a destination now would set unrealistic expectations and refusal risk.",
+      "ai_conditions_pt": ["Inglês A1 → B1", "Plano de poupança", "Documentação base"],
+      "ai_conditions_en": ["English A1 → B1", "Savings plan", "Base documentation"],
+      "key_facts": [
+        { "label_pt": "Orçamento", "label_en": "Budget", "value": "R$ 22.000" },
+        { "label_pt": "Histórico de visto", "label_en": "Visa history", "value": "Nenhum" },
+        { "label_pt": "Origem do lead", "label_en": "Lead source", "value": "Evento One Way" },
+        { "label_pt": "Disponibilidade", "label_en": "Availability", "value": "2027+" }
+      ]
+    }
+  },
+  {
+    "id": "vinicius-araujo-dias",
+    "name": "Vinícius Araújo Dias",
+    "photo": "https://randomuser.me/api/portraits/men/65.jpg",
+    "origin_city": "Brasília, DF",
+    "goal_pt": "Estudar e trabalhar · finanças",
+    "goal_en": "Study + work · finance",
+    "current_english": "B1",
+    "highest_education_pt": "Ensino superior completo (Economia)",
+    "highest_education_en": "Bachelor's degree (Economics)",
+    "stage": "event",
+    "created_at": "2026-05-08",
+    "profile": {
+      "readiness_score": 70,
+      "score_breakdown": { "academic": 8.5, "english": 6.0, "financial": 7.0, "intent": 7.0, "documentation": 7.0, "immigration_risk": 8.5, "program_fit": 7.0 },
+      "recommended_destination": "ireland",
+      "destination_fit": [
+        { "destination": "ireland", "propensity": "high", "score": 76, "rationale_pt": "Graduação em economia e hub financeiro de Dublin; B1 suficiente para ILEP com curso.", "rationale_en": "Economics degree and Dublin's finance hub; B1 sufficient for ILEP with a course." },
+        { "destination": "australia", "propensity": "moderate", "score": 64, "rationale_pt": "Elegível com melhora de inglês para B2.", "rationale_en": "Eligible with English improved to B2." },
+        { "destination": "malta", "propensity": "high", "score": 78, "rationale_pt": "Setor financeiro/iGaming forte.", "rationale_en": "Strong finance/iGaming sector." },
+        { "destination": "spain", "propensity": "moderate", "score": 62, "rationale_pt": "Opção de idioma; Barcelona tem cena financeira.", "rationale_en": "Language option; Barcelona has a finance scene." }
+      ],
+      "ai_status": "READY_WITH_CONDITIONS",
+      "ai_text_pt": "Bom perfil acadêmico e financeiro. Irlanda é o melhor match para a área de finanças. Recomenda-se elevar inglês para B2 para ampliar opções (inclusive Austrália) e avançar para cotação.",
+      "ai_text_en": "Good academic and financial profile. Ireland is the best match for finance. Recommend lifting English to B2 to broaden options (including Australia) and move to a quote.",
+      "ai_conditions_pt": ["Inglês B1 → B2 recomendado", "Selecionar curso alinhado a finanças"],
+      "ai_conditions_en": ["English B1 → B2 recommended", "Select a finance-aligned course"],
+      "key_facts": [
+        { "label_pt": "Orçamento", "label_en": "Budget", "value": "R$ 65.000" },
+        { "label_pt": "Histórico de visto", "label_en": "Visa history", "value": "Schengen 2022 (ok)" },
+        { "label_pt": "Origem do lead", "label_en": "Lead source", "value": "Evento One Way" },
+        { "label_pt": "Disponibilidade", "label_en": "Availability", "value": "Início 2027" }
+      ]
+    }
+  }
+]

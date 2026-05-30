@@ -1,0 +1,76 @@
+[
+  {
+    "candidate_id": "ana-beatriz-carvalho",
+    "candidate_name": "Ana Beatriz Carvalho",
+    "destination": "australia",
+    "visa_type": "Student Subclass 500",
+    "overall_pct": 72,
+    "target_intake_pt": "Julho 2026",
+    "target_intake_en": "July 2026",
+    "steps": [
+      { "key": "docs", "label_pt": "Documentos pessoais & passaporte", "label_en": "Personal docs & passport", "status": "done" },
+      { "key": "english", "label_pt": "Teste de inglês (IELTS)", "label_en": "English test (IELTS)", "status": "done" },
+      { "key": "loa", "label_pt": "Carta de aceite / CoE", "label_en": "Letter of Acceptance / CoE", "status": "in_progress" },
+      { "key": "funds", "label_pt": "Comprovação financeira", "label_en": "Proof of funds", "status": "done" },
+      { "key": "gs", "label_pt": "Declaração Genuine Student", "label_en": "Genuine Student statement", "status": "in_progress" },
+      { "key": "oshc", "label_pt": "Seguro saúde (OSHC)", "label_en": "Health cover (OSHC)", "status": "pending" },
+      { "key": "lodge", "label_pt": "Submissão do visto", "label_en": "Visa lodgement", "status": "pending" },
+      { "key": "decision", "label_pt": "Decisão", "label_en": "Decision", "status": "pending" }
+    ]
+  },
+  {
+    "candidate_id": "pedro-henrique-alves",
+    "candidate_name": "Pedro Henrique Alves",
+    "destination": "ireland",
+    "visa_type": "Irish Study Visa (ILEP)",
+    "overall_pct": 50,
+    "target_intake_pt": "Agosto 2026",
+    "target_intake_en": "August 2026",
+    "steps": [
+      { "key": "docs", "label_pt": "Documentos pessoais & passaporte", "label_en": "Personal docs & passport", "status": "done" },
+      { "key": "loa", "label_pt": "Carta de aceite (LoA) ILEP", "label_en": "ILEP Letter of Acceptance", "status": "in_progress" },
+      { "key": "funds", "label_pt": "Comprovação financeira (~€4.200)", "label_en": "Proof of funds (~€4,200)", "status": "in_progress" },
+      { "key": "insurance", "label_pt": "Seguro saúde privado", "label_en": "Private health insurance", "status": "pending" },
+      { "key": "lodge", "label_pt": "Submissão do visto", "label_en": "Visa lodgement", "status": "pending" },
+      { "key": "decision", "label_pt": "Decisão", "label_en": "Decision", "status": "pending" }
+    ]
+  },
+  {
+    "candidate_id": "lucas-oliveira-martins",
+    "candidate_name": "Lucas Oliveira Martins",
+    "destination": "australia",
+    "visa_type": "Student Subclass 500",
+    "overall_pct": 100,
+    "target_intake_pt": "Fevereiro 2026",
+    "target_intake_en": "February 2026",
+    "steps": [
+      { "key": "docs", "label_pt": "Documentos pessoais & passaporte", "label_en": "Personal docs & passport", "status": "done" },
+      { "key": "english", "label_pt": "Teste de inglês (IELTS)", "label_en": "English test (IELTS)", "status": "done" },
+      { "key": "loa", "label_pt": "Carta de aceite / CoE", "label_en": "Letter of Acceptance / CoE", "status": "done" },
+      { "key": "funds", "label_pt": "Comprovação financeira", "label_en": "Proof of funds", "status": "done" },
+      { "key": "gs", "label_pt": "Declaração Genuine Student", "label_en": "Genuine Student statement", "status": "done" },
+      { "key": "oshc", "label_pt": "Seguro saúde (OSHC)", "label_en": "Health cover (OSHC)", "status": "done" },
+      { "key": "lodge", "label_pt": "Submissão do visto", "label_en": "Visa lodgement", "status": "done" },
+      { "key": "decision", "label_pt": "Decisão · Aprovado", "label_en": "Decision · Approved", "status": "done" }
+    ]
+  },
+  {
+    "candidate_id": "camila-rodrigues-nunes",
+    "candidate_name": "Camila Rodrigues Nunes",
+    "destination": "australia",
+    "visa_type": "Student Subclass 500",
+    "overall_pct": 100,
+    "target_intake_pt": "Março 2026",
+    "target_intake_en": "March 2026",
+    "steps": [
+      { "key": "docs", "label_pt": "Documentos pessoais & passaporte", "label_en": "Personal docs & passport", "status": "done" },
+      { "key": "english", "label_pt": "Teste de inglês (IELTS)", "label_en": "English test (IELTS)", "status": "done" },
+      { "key": "loa", "label_pt": "Carta de aceite / CoE", "label_en": "Letter of Acceptance / CoE", "status": "done" },
+      { "key": "funds", "label_pt": "Comprovação financeira", "label_en": "Proof of funds", "status": "done" },
+      { "key": "gs", "label_pt": "Declaração Genuine Student", "label_en": "Genuine Student statement", "status": "done" },
+      { "key": "oshc", "label_pt": "Seguro saúde (OSHC)", "label_en": "Health cover (OSHC)", "status": "done" },
+      { "key": "lodge", "label_pt": "Submissão do visto", "label_en": "Visa lodgement", "status": "done" },
+      { "key": "decision", "label_pt": "Decisão · Aprovado", "label_en": "Decision · Approved", "status": "done" }
+    ]
+  }
+]

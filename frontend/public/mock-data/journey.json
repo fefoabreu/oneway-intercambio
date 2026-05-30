@@ -1,0 +1,74 @@
+[
+  {
+    "key": "pre_departure",
+    "label_pt": "Pré-partida",
+    "label_en": "Pre-departure",
+    "icon": "ClipboardCheck",
+    "summary_pt": "Preparação final antes do embarque: visto aprovado, passagens, acomodação inicial e checklist cultural.",
+    "summary_en": "Final prep before boarding: approved visa, flights, initial accommodation and cultural checklist.",
+    "actions_pt": ["Reserva de passagem e recepção no aeroporto", "Acomodação inicial (homestay/hostel)", "Checklist de documentos e seguro", "Orientação cultural e financeira"],
+    "actions_en": ["Flight booking and airport pickup", "Initial accommodation (homestay/hostel)", "Documents and insurance checklist", "Cultural and financial orientation"],
+    "ai_touch_pt": "Gera checklist personalizado por destino e alerta itens pendentes antes do voo.",
+    "ai_touch_en": "Generates a destination-specific checklist and flags pending items before the flight."
+  },
+  {
+    "key": "arrival",
+    "label_pt": "Chegada & instalação",
+    "label_en": "Arrival & setup",
+    "icon": "Plane",
+    "summary_pt": "Primeiras semanas no destino: documentos locais, conta bancária e início das aulas.",
+    "summary_en": "First weeks in-country: local documents, bank account and start of classes.",
+    "actions_pt": ["Recepção no aeroporto e transporte", "TFN/ABN (AUS) ou PPS (IRL)", "Abertura de conta bancária", "Carteirinha estudantil e início das aulas"],
+    "actions_en": ["Airport pickup and transfer", "TFN/ABN (AUS) or PPS (IRL)", "Bank account opening", "Student card and class start"],
+    "ai_touch_pt": "Assistente responde dúvidas locais 24/7 e acompanha a conclusão dos passos de instalação.",
+    "ai_touch_en": "Assistant answers local questions 24/7 and tracks completion of setup steps."
+  },
+  {
+    "key": "settling",
+    "label_pt": "Adaptação",
+    "label_en": "Settling in",
+    "icon": "Home",
+    "summary_pt": "Estabilização: moradia definitiva, rotina de estudos e primeiros contatos para emprego.",
+    "summary_en": "Stabilizing: permanent housing, study routine and first job contacts.",
+    "actions_pt": ["Moradia definitiva", "Preparação de currículo local", "Rede de apoio e comunidade", "Acompanhamento acadêmico"],
+    "actions_en": ["Permanent housing", "Local CV preparation", "Support network and community", "Academic follow-up"],
+    "ai_touch_pt": "Recomenda recursos de emprego e sinaliza risco de evasão acadêmica precocemente.",
+    "ai_touch_en": "Recommends job resources and flags academic dropout risk early."
+  },
+  {
+    "key": "study_work",
+    "label_pt": "Estudar & trabalhar",
+    "label_en": "Study & work",
+    "icon": "Briefcase",
+    "summary_pt": "Equilíbrio entre estudo e trabalho dentro dos limites do visto, gerando renda e experiência.",
+    "summary_en": "Balancing study and work within visa limits, building income and experience.",
+    "actions_pt": ["Emprego dentro do limite de horas do visto", "Progresso de inglês e do curso", "Gestão financeira", "Cumprimento das condições do visto"],
+    "actions_en": ["Job within visa hour limits", "English and course progress", "Financial management", "Visa condition compliance"],
+    "ai_touch_pt": "Monitora horas permitidas e marcos do curso; alerta sobre conformidade do visto.",
+    "ai_touch_en": "Monitors permitted hours and course milestones; alerts on visa compliance."
+  },
+  {
+    "key": "renewal",
+    "label_pt": "Renovação & extensão",
+    "label_en": "Renewal & extension",
+    "icon": "RefreshCw",
+    "summary_pt": "Planejamento de continuidade: renovar visto, estender curso ou migrar de programa.",
+    "summary_en": "Continuity planning: renew visa, extend the course or switch program.",
+    "actions_pt": ["Análise de elegibilidade para renovação", "Novo curso/instituição se necessário", "Atualização de comprovação financeira", "Serviço de renovação e tradução"],
+    "actions_en": ["Renewal eligibility analysis", "New course/institution if needed", "Updated proof of funds", "Renewal and translation service"],
+    "ai_touch_pt": "Antecipa janelas de renovação e simula elegibilidade para a próxima etapa.",
+    "ai_touch_en": "Anticipates renewal windows and simulates eligibility for the next step."
+  },
+  {
+    "key": "pathway",
+    "label_pt": "Pathway & alumni",
+    "label_en": "Pathway & alumni",
+    "icon": "GraduationCap",
+    "summary_pt": "Caminho de longo prazo: graduação, residência permanente ou retorno como embaixador.",
+    "summary_en": "Long-term path: graduation, permanent residency or return as an ambassador.",
+    "actions_pt": ["Plano de pathway de residência (PR)", "Networking profissional", "Programa de alumni e indicações", "Histórias de sucesso para captação"],
+    "actions_en": ["Residency (PR) pathway plan", "Professional networking", "Alumni program and referrals", "Success stories for intake"],
+    "ai_touch_pt": "Mapeia rotas de PR por profissão e transforma alumni em fonte de novos leads.",
+    "ai_touch_en": "Maps PR routes by profession and turns alumni into a source of new leads."
+  }
+]
