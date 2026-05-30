@@ -72,5 +72,75 @@
       { "key": "lodge", "label_pt": "Submissão do visto", "label_en": "Visa lodgement", "status": "done" },
       { "key": "decision", "label_pt": "Decisão · Aprovado", "label_en": "Decision · Approved", "status": "done" }
     ]
+  },
+  {
+    "candidate_id": "gustavo-pereira-lima",
+    "candidate_name": "Gustavo Pereira Lima",
+    "destination": "australia",
+    "visa_type": "Student Subclass 500",
+    "overall_pct": 55,
+    "target_intake_pt": "Julho 2026",
+    "target_intake_en": "July 2026",
+    "steps": [
+      { "key": "docs", "label_pt": "Documentos pessoais & passaporte", "label_en": "Personal docs & passport", "status": "done" },
+      { "key": "english", "label_pt": "Teste de inglês (IELTS)", "label_en": "English test (IELTS)", "status": "done" },
+      { "key": "loa", "label_pt": "Carta de aceite / CoE", "label_en": "Letter of Acceptance / CoE", "status": "in_progress" },
+      { "key": "funds", "label_pt": "Comprovação financeira", "label_en": "Proof of funds", "status": "done" },
+      { "key": "gs", "label_pt": "Declaração Genuine Student", "label_en": "Genuine Student statement", "status": "in_progress" },
+      { "key": "oshc", "label_pt": "Seguro saúde (OSHC)", "label_en": "Health cover (OSHC)", "status": "pending" },
+      { "key": "lodge", "label_pt": "Submissão do visto", "label_en": "Visa lodgement", "status": "pending" },
+      { "key": "decision", "label_pt": "Decisão", "label_en": "Decision", "status": "pending" }
+    ]
+  },
+  {
+    "candidate_id": "leticia-campos-moreira",
+    "candidate_name": "Letícia Campos Moreira",
+    "destination": "ireland",
+    "visa_type": "Irish Study Visa (ILEP)",
+    "overall_pct": 45,
+    "target_intake_pt": "Setembro 2026",
+    "target_intake_en": "September 2026",
+    "steps": [
+      { "key": "docs", "label_pt": "Documentos pessoais & passaporte", "label_en": "Personal docs & passport", "status": "done" },
+      { "key": "loa", "label_pt": "Carta de aceite (LoA) ILEP", "label_en": "ILEP Letter of Acceptance", "status": "in_progress" },
+      { "key": "funds", "label_pt": "Comprovação financeira (~€4.200)", "label_en": "Proof of funds (~€4,200)", "status": "done" },
+      { "key": "insurance", "label_pt": "Seguro saúde privado", "label_en": "Private health insurance", "status": "pending" },
+      { "key": "lodge", "label_pt": "Submissão do visto", "label_en": "Visa lodgement", "status": "pending" },
+      { "key": "decision", "label_pt": "Decisão", "label_en": "Decision", "status": "pending" }
+    ]
+  },
+  {
+    "candidate_id": "beatriz-fernandes-souza",
+    "candidate_name": "Beatriz Fernandes Souza",
+    "destination": "malta",
+    "visa_type": "Malta National (long-stay) Visa",
+    "overall_pct": 38,
+    "target_intake_pt": "Outubro 2026",
+    "target_intake_en": "October 2026",
+    "steps": [
+      { "key": "docs", "label_pt": "Documentos pessoais & passaporte", "label_en": "Personal docs & passport", "status": "done" },
+      { "key": "loa", "label_pt": "Matrícula em escola licenciada", "label_en": "Enrolment in licensed school", "status": "in_progress" },
+      { "key": "funds", "label_pt": "Comprovação financeira", "label_en": "Proof of funds", "status": "in_progress" },
+      { "key": "insurance", "label_pt": "Seguro saúde", "label_en": "Health insurance", "status": "pending" },
+      { "key": "lodge", "label_pt": "Submissão do visto nacional", "label_en": "National visa lodgement", "status": "pending" },
+      { "key": "decision", "label_pt": "Decisão", "label_en": "Decision", "status": "pending" }
+    ]
+  },
+  {
+    "candidate_id": "diego-martins-rocha",
+    "candidate_name": "Diego Martins Rocha",
+    "destination": "ireland",
+    "visa_type": "Irish Study Visa (ILEP)",
+    "overall_pct": 100,
+    "target_intake_pt": "Janeiro 2026",
+    "target_intake_en": "January 2026",
+    "steps": [
+      { "key": "docs", "label_pt": "Documentos pessoais & passaporte", "label_en": "Personal docs & passport", "status": "done" },
+      { "key": "loa", "label_pt": "Carta de aceite (LoA) ILEP", "label_en": "ILEP Letter of Acceptance", "status": "done" },
+      { "key": "funds", "label_pt": "Comprovação financeira (~€4.200)", "label_en": "Proof of funds (~€4,200)", "status": "done" },
+      { "key": "insurance", "label_pt": "Seguro saúde privado", "label_en": "Private health insurance", "status": "done" },
+      { "key": "lodge", "label_pt": "Submissão do visto", "label_en": "Visa lodgement", "status": "done" },
+      { "key": "decision", "label_pt": "Decisão · Aprovado", "label_en": "Decision · Approved", "status": "done" }
+    ]
   }
 ]
